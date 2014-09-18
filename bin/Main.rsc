@@ -2,10 +2,13 @@ module Main
 
 import lang::java::jdt::m3::Core;	//code analysis
 import lang::java::m3::AST;			//code analysis
+import util::Resources;				//projects()
 import IO;							//print
 import Relation; 					//invert
 import List; 						//size
 import Map;							//size
+import Set; 						//takeOneFrom
+import String;						//split
 
 import Types;						//inheritance context
 import TypeHelper;					//method return type
@@ -14,7 +17,16 @@ import InheritanceType;				//inheritance types (CC/CI/II)
 import Subtype;
 import ExternalReuse;
 import InternalReuse;
+import Downcall;
+import Super;
+import Generic;
 
+
+public void analyzeProjectsStartingWith(str val) {
+	for (p <- [p | p <- projects(), startsWith(p.authority, val)]) {
+		analyzeProject(p);
+	}
+}
 
 public void analyzeProject(loc projectLoc) {
 	analyzeProject(projectLoc, false);
@@ -22,26 +34,40 @@ public void analyzeProject(loc projectLoc) {
 
 public void analyzeProject(loc projectLoc, bool forceCacheRefresh) {
 	M3 model = getM3(projectLoc, forceCacheRefresh);
-	map[loc, Declaration] asts = getAsts(projectLoc, forceCacheRefresh);
+	asts = getAsts(projectLoc, forceCacheRefresh);
+	
+	//if (forceCacheRefresh) {
+	//print("Counting LOC....");
+	//writeLinesOfCode(projectLoc);
+	//println("done");
+	//}
 	print("Creating additional models....");
 	rel[loc, loc] directInheritance = model@extends + model@implements;	
-	rel[loc, loc] allInheritance = directInheritance++;
-	map[loc, loc] declaringTypes = (f:t | <f,t> <- invert(model@containment), t.scheme == "java+class" || t.scheme == "java+interface" || t.scheme == "java+anonymousClass");
+	rel[loc, loc] allInheritance = directInheritance+;
+	map[loc, loc] declaringTypes = (f:t | <t,f> <- model@containment, t.scheme == "java+enum" ||  t.scheme == "java+class" || t.scheme == "java+interface" || t.scheme == "java+anonymousClass");
 	map[loc, TypeSymbol] typeMap = (f:t | <f,t> <- model@types);
 	InheritanceContext ctx = ctx();
 	ctx@m3 = model;
 	ctx@asts = asts;
 	ctx@directInheritance = directInheritance;
     ctx@allInheritance = allInheritance;
+    ctx@super = [];
+    ctx@generic = [];
+    ctx@typesWithObjectSubtype = {};
     ctx@declaringTypes = declaringTypes;
+    ctx@invertedOverrides = invert(model@methodOverrides);
     ctx@typeMap = typeMap;
 	println("done");
 	getInheritanceTypes(projectLoc, ctx);
 	ctx = visitCore(ctx);	
 	print("Saving output....");
+	saveTypes(projectLoc, ctx);
 	saveInternalReuse(projectLoc, ctx);
 	saveExternalReuse(projectLoc, ctx);
 	saveSubtype(projectLoc, ctx);
+	saveDowncall(projectLoc, ctx);
+	saveSuper(projectLoc, ctx);
+	saveGeneric(projectLoc, ctx);
 	println("done");
 }
 
@@ -50,6 +76,10 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 	list[Reuse] internalReuse = [];
 	list[Reuse] externalReuse = [];
 	list[Subtype] subtypes = [];
+	list[Generic] generics = [];
+	list[Super] supers = [];
+	set[loc] typesWithObjectSubtype = {};
+	list[Downcall] downcallCandidates = [];
 	print("Analyzing project..");
 	total = size(ctx@asts);
 	n = 0;
@@ -61,8 +91,23 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 		Declaration ast = ctx@asts[k];
 		loc returnType = tryGetReturnType(ast);		
 		loc methodDeclaringType = |unresolved:///|;
-		if (hasDeclAnnotation(ast)) {
+		if (hasDeclAnnotation(ast) && (ast@decl in ctx@declaringTypes)) {
 			methodDeclaringType = ctx@declaringTypes[ast@decl];
+		}
+		else 
+		{
+			//find field initializer, first occurrence of field 
+			//use its declaration to find the containing type
+			
+			top-down-break visit (ast) {
+				  case Expression variable: \variable(str name, int extraDimensions): {
+						methodDeclaringType = ctx@declaringTypes[variable@decl];				  		
+				  }
+    			  case Expression variable: \variable(str name, int extraDimensions, Expression \initializer): {
+						methodDeclaringType = ctx@declaringTypes[variable@decl];    			  
+    			  }
+			}
+		
 		}
 		visit (ast) {
 			//case \arrayAccess(Expression array, Expression index):
@@ -79,106 +124,101 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 		    //handled by other cases
 		    
 		    case Expression assignment: \assignment(Expression lhs, str operator, Expression rhs):  {
-		    	stResult = checkAssignmentForSubtype(ctx, assignment, lhs, rhs);
-		    	
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}
+		    	<stResult, objectSubtypes> = checkAssignmentForSubtype(ctx, assignment, lhs, rhs);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
 		    }			    
 		    
 		    case Expression castExpression: \cast(Type \type, Expression expression): {
 		    	//TODO: Generic attribute
+		    	generics += checkCastForGeneric(ctx, \type, expression);
 		    	//SUBTYPE: cast a child to a parent type	
-		    	stResult = checkDirectCastForSubtype(ctx, castExpression, \type, expression);	    	
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}
+		    	<stResult, objectSubtypes> = checkDirectCastForSubtype(ctx, castExpression, \type, expression);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
 		 	}   
 		    
 		    //case \characterLiteral(str charValue):
 		    //not applicable 
 		    
 		    case Expression ctor: \newObject(Expression expr, Type \type, list[Expression] args, Declaration class): {
-		    	stResult = checkCallForSubtype(ctx, ctor@decl, args);
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}
+		    	<stResult, objectSubtypes> = checkCallForSubtype(ctx, ctor@decl, args);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;
 		    }		    
 		    case Expression ctor: \newObject(Expression expr, Type \type, list[Expression] args): {
-		    	stResult = checkCallForSubtype(ctx, ctor@decl, args);	    
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}
+		    	    	<stResult, objectSubtypes> = checkCallForSubtype(ctx, ctor@decl, args);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;
 		    }				    
 		    case Expression ctor: \newObject(Type \type, list[Expression] args, Declaration class): {	
-		    	stResult = checkCallForSubtype(ctx, ctor@decl, args);
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}
+		        	<stResult, objectSubtypes> = checkCallForSubtype(ctx, ctor@decl, args);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;
 		    }
 		    case Expression ctor: \newObject(Type \type, list[Expression] args): {			
-		    	stResult = checkCallForSubtype(ctx, ctor@decl, args);
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}
+		        	<stResult, objectSubtypes> = checkCallForSubtype(ctx, ctor@decl, args);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;
 		    }		    
 		    case \qualifiedName(Expression qualifier, Expression expression): {	
 		    	//Requires: accessed item's type, declaring type on accessed item
 		    	//Declaring type on parent
-		    	result = checkQualifiedNameForExternalReuse(ctx, qualifier, expression);
-		    	if (noReuse() !:= result) {
-		    		externalReuse += result;
-		    	}
+		    	externalReuse += checkQualifiedNameForExternalReuse(ctx, qualifier, expression);
+		    	
 		    }
-		    //case \conditional(Expression expression, Expression thenBranch, Expression elseBranch):
+		    case Expression conditional: \conditional(Expression expression, Expression thenBranch, Expression elseBranch): {
+		    	<stResult, objectSubtypes> = checkConditionalForSubtype(ctx, methodDeclaringType, conditional, thenBranch, elseBranch);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
+		    }
 		    case Expression fieldAccess: \fieldAccess(bool isSuper, Expression expr, str name):		{
 		    	//REMARK: isSuper only true when the Super keyword was used; so not relevant	
 		    	//INTERNAL REUSE: handles cases this.x and super.x
 		    	//EXTERNAL REUSE: handles cases x.y;
-		    	result = checkFieldAccessForExternalReuse(ctx, fieldAccess, expr);
-		    	if (noReuse() !:= result) {
-		    		externalReuse += result;
-		    	}
-				result = checkFieldAccessForInternalReuse(ctx, methodDeclaringType, fieldAccess);	
-		    	if (noReuse() !:= result) {
-		    		internalReuse += result;
-		    	}
+		    	externalReuse += checkFieldAccessForExternalReuse(ctx, fieldAccess, expr);
+		    	
+				internalReuse += checkFieldAccessForInternalReuse(ctx, methodDeclaringType, fieldAccess, expr);	
 	    	}
 		    case Expression fieldAccess: \fieldAccess(bool isSuper, str name): {
 		    	//REMARK: isSuper only true when the Super keyword was used; so not relevant for us
 		    	//INTERNAL REUSE: handles cases this.x and super.x
 		    	//EXTERNAL REUSE: not applicable
-				result = checkFieldAccessForInternalReuse(ctx, methodDeclaringType, fieldAccess);	
-		    	if (noReuse() !:= result) {
-		    		internalReuse += result;
-		    	}
+				internalReuse += checkFieldAccessForInternalReuse(ctx, methodDeclaringType, fieldAccess);	
 		    }
 		    //case \instanceof(Expression leftSide, Type rightSide):
 		    case Expression methodCall: \methodCall(bool isSuper, str name, list[Expression] arguments): {
 		    	//internal reuse
 		    	//receiver is not present here; external reuse is not possible. E.g. super.X() or X();
-		    	result = checkCallForInternalReuse(ctx, methodCall, methodDeclaringType);
-		    	if (noReuse() !:= result) {
-		    		internalReuse += result;
+		    	internalReuse += checkCallForInternalReuse(ctx, methodCall, methodDeclaringType);
+	    	
+		    	
+		    	<stResult, objectSubtypes> = checkCallForSubtype(ctx, methodCall@decl, arguments);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
+		    	//downcall candidate possible
+		    	if (!isSuper) {
+		    	loc decl = hasDeclAnnotation(ast) ? ast@decl : |type://unresolved/|;
+		    		downcallCandidates += checkCallForDowncall(ctx, methodCall, methodDeclaringType, decl);
 		    	}
-		    	stResult = checkCallForSubtype(ctx,methodCall@decl, arguments);	
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}	    		
+		    	
 		    }
 		    case Expression methodCall: \methodCall(bool isSuper, Expression receiver, str name, list[Expression] arguments): {
-		    	result = checkCallForInternalReuse(ctx, methodCall, methodDeclaringType);	
-		    	if (noReuse() !:= result) {
-		    		internalReuse += result;
-		    	}	   
-		    	result = checkCallForExternalReuse(ctx, methodDeclaringType, methodCall, receiver);	
-		    	if (noReuse() !:= result) {
-		    		externalReuse += result;
-		    	}	     
-		    	stResult = checkCallForSubtype(ctx, methodCall@decl, arguments);	
-		    	if (noSubtype() !:= stResult) {
-		    		subtypes += stResult;
-		    	}	    			    							    
+		    	internalReuse += checkCallForInternalReuse(ctx, methodCall, methodDeclaringType, receiver);	
+		    	externalReuse += checkCallForExternalReuse(ctx, methodDeclaringType, receiver, methodCall);	
+		    	<stResult, objectSubtypes> = checkCallForSubtype(ctx, methodCall@decl, arguments, receiver);
+		    	typesWithObjectSubtype += objectSubtypes;	
+		    	subtypes += stResult;
+		    	if (!isSuper) {
+		    		//if we are in a field initializer, we cannot provide the current method declaration. However; the field initializer
+		    		//cannot be overridden, so we don't care about the method declaration
+		    		//therefore we provide an unresolved location
+		    		loc astDeclaration = |unresolved:///|;
+		    		if (hasDeclAnnotation(ast)) {
+		    			astDeclaration = ast@decl;
+		    		} 
+		    		downcallCandidates += checkCallForDowncall(ctx, methodCall, methodDeclaringType, astDeclaration, receiver);
+		    	}				    
 		    }
 		    //case \null():
 		    //case \number(str numberValue):
@@ -186,15 +226,14 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 		    //case \stringLiteral(str stringValue):
 		    //case \type(Type \type):
 		    //case \variable(str name, int extraDimensions):
-		    case Expression variable: \variable(str name, int extraDimensions, Expression \initializer): {				    	
-		    	result = checkVariableInitializerForSubtype(ctx, variable, \initializer);
-		    	if (noSubtype() !:= result) {
-		    		subtypes += result;
-		    	}	    		
+		    case Expression variable: \variable(str name, int extraDimensions, Expression \initializer): {			
+		    	<stResult, objectSubtypes> = checkVariableInitializerForSubtype(ctx, variable, \initializer);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
 		    }
 		    //case \bracket(Expression expression):
 		    //case \this():
-		    //case \this(Expression thisExpression):
+		    //case \this(Expression thisExpression): 
 		    //case \super():
 		    //case \declarationExpression(Declaration decl):
 		    //case \infix(Expression lhs, str operator, Expression rhs, list[Expression] extendedOperands):
@@ -203,10 +242,7 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 		    case Expression simpleName: \simpleName(str name): {
 		    	//parent is a var access expr:
 		    	//handles direct field access through a field name without this or super qualifier
-		    	result = checkSimpleNameForInternalReuse(ctx, methodDeclaringType, simpleName);
-		    	if (noReuse() !:= result) {
-		    		internalReuse += result;
-		    	}	    		
+		    	internalReuse += checkSimpleNameForInternalReuse(ctx, methodDeclaringType, simpleName);
 		    }
 		    //case \markerAnnotation(str typeName):
 		    //case \normalAnnotation(str typeName, list[Expression] memberValuePairs):
@@ -215,23 +251,42 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 			// STATEMENTS
 	 		case \return(Expression expression): {
 	 			//subtype might occur here
-		   		result = checkReturnStatementForSubtype(ctx, returnType, expression);
-		    	if (noSubtype() !:= result) {
-		    		subtypes += result;
-		    	}	    		
-			}			
+		    	<stResult, objectSubtypes> = checkReturnStatementForSubtype(ctx, returnType, expression);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
+			}		
+			
+			case Statement ctorCall: \constructorCall(bool isSuper, Expression expr, list[Expression] arguments): {
+				if (isSuper) {
+					s = {t | t <- ctx@directInheritance[methodDeclaringType],t.scheme == "java+class" };
+					if (size(s) > 0) //nonsystem type
+					 supers += super(methodDeclaringType, getOneFrom(s), ctorCall@src);
+				}
+				
+		    	<stResult, objectSubtypes> = checkCallForSubtype(ctx, ctorCall@decl, arguments);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
+			}
+    		case Statement ctorCall: \constructorCall(bool isSuper, list[Expression] arguments):{
+				if (isSuper) {
+					s = {t | t <- ctx@directInheritance[methodDeclaringType],t.scheme == "java+class" };
+					if (size(s) > 0) //nonsystem type				
+					 supers += super(methodDeclaringType, getOneFrom(s), ctorCall@src);
+				}
+				
+		    	<stResult, objectSubtypes> = checkCallForSubtype(ctx, ctorCall@decl, arguments);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;	
+			}
 		}
 	}
 	ctx@internalReuse = internalReuse;
 	ctx@externalReuse = externalReuse;
+	ctx@downcallCandidates = downcallCandidates;
 	ctx@subtypes = subtypes;
+	ctx@super = supers;
+	ctx@generic = generics;
+	ctx@typesWithObjectSubtype = typesWithObjectSubtype;
 	println("100%..done");
 	return ctx;
-}
-
-private bool hasDeclAnnotation(Declaration decl) {
-	switch (decl) {
-		case \field(Type \type, list[Expression] fragments): return false;
-	}
-	return true;
 }

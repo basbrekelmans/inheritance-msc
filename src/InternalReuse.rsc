@@ -3,9 +3,11 @@ module InternalReuse
 import Types;						//InheritanceContext
 import lang::java::jdt::m3::Core;	//code analysis
 import lang::java::m3::AST;			//code analysis
+import ReuseHelper;
 import FileInfo;      				//file loc
 import IO;							//saving
 import List;						//intercalate
+import TypeHelper;					//getDeclarationLoc;
     
     
 public void saveInternalReuse(loc projectLoc, InheritanceContext ctx) {
@@ -18,40 +20,44 @@ public void saveInternalReuse(loc projectLoc, InheritanceContext ctx) {
 	writeFile(fileLoc, intercalate("\r\n", result));	
 }
     
-public Reuse checkFieldAccessForInternalReuse(InheritanceContext ctx, loc methodDeclaringType, Expression fieldAccess) {	
+public list[Reuse] checkFieldAccessForInternalReuse(InheritanceContext ctx, loc methodDeclaringType, Expression fieldAccess) {	
 	if (fieldAccess@decl in ctx@declaringTypes) {		    		
 		loc declaringType = ctx@declaringTypes[fieldAccess@decl];
-		bool isInternalReuse = (<methodDeclaringType, declaringType> in ctx@allInheritance);	
-    	if (isInternalReuse) {	
-			return reuse(<methodDeclaringType, declaringType> in ctx@directInheritance, 
-    		fieldAccessed(), methodDeclaringType, declaringType, fieldAccess@src, fieldAccess@decl);
-    	}
+		return getReuse(ctx, \class(methodDeclaringType, []), \class(declaringType, []), fieldAccessed(), fieldAccess@src, fieldAccess@decl);
 	}	
-	return noReuse();
+	return [];
 }
 
-public Reuse checkSimpleNameForInternalReuse(InheritanceContext ctx, loc methodDeclaringType, Expression simpleName) {
+public list[Reuse] checkFieldAccessForInternalReuse(InheritanceContext ctx, loc methodDeclaringType, Expression fieldAccess, Expression expr) {	
+	switch (expr) {
+		case \this() : return checkFieldAccessForInternalReuse(ctx, methodDeclaringType, fieldAccess);
+		case \this(Expression qualifier) : return checkFieldAccessForInternalReuse(ctx, getDeclarationLoc(qualifier@typ), fieldAccess);
+	}
+	return [];
+}
+
+public list[Reuse] checkSimpleNameForInternalReuse(InheritanceContext ctx, loc methodDeclaringType, Expression simpleName) {
 	loc declaration = simpleName@decl;
 	if (declaration.scheme == "java+field" && declaration in ctx@declaringTypes) {
 		loc declaringType = ctx@declaringTypes[declaration];
-		bool isInheritance = (<methodDeclaringType, declaringType> in ctx@allInheritance);
-		if (isInheritance) {	
-			return reuse(<methodDeclaringType, declaringType> in ctx@directInheritance, 
-			fieldAccessed(), methodDeclaringType, declaringType, simpleName@src, declaration);
-		}
+		return getReuse(ctx, \class(methodDeclaringType, []), \class(declaringType, []), fieldAccessed(), simpleName@src, declaration);		
 	}
-	return noReuse();
+	return [];
 }
 
-public Reuse checkCallForInternalReuse(InheritanceContext ctx, Expression methodCall, loc methodDeclaringType) {
+public list[Reuse] checkCallForInternalReuse(InheritanceContext ctx, Expression methodCall, loc methodDeclaringType) {
 	loc calledMethodDeclaration = methodCall@decl;
 	if (calledMethodDeclaration in ctx@declaringTypes) {
-    	loc calledType = ctx@declaringTypes[calledMethodDeclaration];
-		bool isInheritance = (<methodDeclaringType, calledType> in ctx@allInheritance);
-		if (isInheritance) {	
-			return reuse(<methodDeclaringType, calledType> in ctx@directInheritance, 
-			methodCalled(), methodDeclaringType, calledType, methodCall@src, calledMethodDeclaration);
-		} 
+    	loc calledType = ctx@declaringTypes[calledMethodDeclaration];	
+		return getReuse(ctx, \class(methodDeclaringType, []), \class(calledType, []), methodCalled(), methodCall@src, calledMethodDeclaration);
 	}
-	return noReuse();
+	return [];
+}
+
+public list[Reuse] checkCallForInternalReuse(InheritanceContext ctx, Expression methodCall, loc methodDeclaringType, Expression receiver) {
+	switch (receiver) {
+		case \this() : return checkCallForInternalReuse(ctx, methodCall, methodDeclaringType);
+		case \this(Expression qualifier) : return checkCallForInternalReuse(ctx, methodCall, getDeclarationLoc(qualifier@typ));
+	}
+	return [];
 }

@@ -1,5 +1,6 @@
 module ModelCache
 
+import lang::java::jdt::m3::AST;	//createAstsFromEclipseProject
 import lang::java::jdt::m3::Core;	//M3 model
 import lang::java::m3::AST;			//Declaration
 import ValueIO;					    //serialization
@@ -13,8 +14,11 @@ public M3 getM3(loc projectLoc, bool forceRefresh) {
 	if (forceRefresh || !exists(fileLoc)) {
 		print("Creating M3 and saving to disk....");
 		M3 model = createM3FromEclipseProject(projectLoc);
-		writeBinaryValueFile(fileLoc, model);
 		println("done");
+		///print("Adding JAR relations...");
+		///model = includeJarRelations(model);
+		///println("done");
+		writeBinaryValueFile(fileLoc, model);
 		return model;
 	} else {		
 		print("Loading M3 from disk....");
@@ -43,7 +47,7 @@ public map[loc, Declaration] getAsts(loc projectLoc, bool forceRefresh) {
 }
 
 private map[loc, Declaration] createAstMap(loc projectLoc) {
-	set[Declaration] declarations = createAstsFromDirectory(projectLoc, true);
+	set[Declaration] declarations = createAstsFromEclipseProject(projectLoc, true);
 	map[loc, Declaration] output = ();
 	for (decl <- declarations) {
 		visit(decl) {

@@ -20,5 +20,5 @@ public void getInheritanceTypes(loc projectLoc, InheritanceContext ctx) {
 }
 
 private str getInheritanceType(loc from, loc to) {
-	return (from.scheme == "java+class" ? "C" : "I") + (to.scheme == "java+class" ? "C" : "I");
+	return ((from.scheme == "java+class" || from.scheme == "java+anonymousClass") ? "C" : "I") + (to.scheme == "java+class" ? "C" : "I");
 }
