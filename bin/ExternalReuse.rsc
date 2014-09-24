@@ -33,7 +33,6 @@ public list[Reuse] checkQualifiedNameForExternalReuse(InheritanceContext ctx, Ex
     		return [];
     	}
     	if (!(declaration in ctx@declaringTypes)) {
-    		println("DECLARATION <declaration> NOT IN DECLARING TYPES");
     		return [];
     	}
     	return getReuse(ctx, qualifier@typ, \class(ctx@declaringTypes[expression@decl], []), fieldAccessed(), qualifier@src, declaration); 

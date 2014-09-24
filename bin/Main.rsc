@@ -9,7 +9,9 @@ import List; 						//size
 import Map;							//size
 import Set; 						//takeOneFrom
 import String;						//split
+import ValueIO;						//readBinaryValueFile
 
+import FileInfo;					//getBasePath;
 import Types;						//inheritance context
 import TypeHelper;					//method return type
 import ModelCache;					//loading models
@@ -22,10 +24,26 @@ import Super;
 import Generic;
 
 
-public void analyzeProjectsStartingWith(str val) {
-	for (p <- [p | p <- projects(), startsWith(p.authority, val)]) {
-		analyzeProject(p);
+
+public void analyzePreloaded() {
+    loc baseLoc = defaultStoragePath();
+    set[loc] done = {};
+	if (exists(baseLoc + "done.locset"))
+		done = readBinaryValueFile(#set[loc], baseLoc + "done.locset");
+	println("Loading <size(done)> projects");
+	int i = 0;
+	for (p <- done) {
+		try {
+			i = i + 1;
+			print("<i>/<size(done)>: <p.authority>...");
+			analyzeProject(p, false);
+		}
+		catch error: {
+			println("Error!!!");
+			println(error);
+			}
 	}
+	println("Completed");
 }
 
 public void analyzeProject(loc projectLoc) {
@@ -122,7 +140,11 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 		    
 		    //case \arrayInitializer(list[Expression] elements):
 		    //handled by other cases
-		    
+		    case Statement foreach: \foreach(Declaration parameter, Expression collection, Statement body): {
+		    	<stResult, objectSubtyeps> = checkForeachForSubtype(ctx, parameter, collection);
+		    	subtypes += stResult;
+		    	typesWithObjectSubtype += objectSubtypes;
+		    }
 		    case Expression assignment: \assignment(Expression lhs, str operator, Expression rhs):  {
 		    	<stResult, objectSubtypes> = checkAssignmentForSubtype(ctx, assignment, lhs, rhs);
 		    	subtypes += stResult;

@@ -7,7 +7,7 @@ data InheritanceContext = ctx();
 data ReuseSource = fieldAccessed() | methodCalled();
 data Reuse = reuse(bool direct, ReuseSource source, loc from, loc to, loc fromDecl, loc toDecl) | noReuse();
 
-data SubtypeSource = typeCasted() | parameterPassed() | varAssigned() | varInitialized() | returned() | thisChangingType() | sidewaysCast();
+data SubtypeSource = typeCasted() | parameterPassed() | varAssigned() | conditional() | varInitialized() | returned() | thisChangingType() | sidewaysCast();
 data Subtype = subtype(bool direct, SubtypeSource source, loc from, loc to, loc fromDecl) | noSubtype();
 
 data Downcall = downcall(loc fromType, loc toType, loc fromMethod, loc toMethod, loc calledFrom) | noDowncall();
