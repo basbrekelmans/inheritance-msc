@@ -86,12 +86,12 @@ public M3 getM3(loc projectLoc, bool forceRefresh, bool print = false) {
 		///print("Adding JAR relations...");
 		///model = includeJarRelations(model);
 		///println("done");
-		writeBinaryValueFile(fileLoc, model);
+		writeBinaryValueFile(fileLoc, model, compression = false);
 		return model;
 	} else {		
 		if (print)
 		print("Loading M3 from disk....");
-		M3 model = readBinaryValueFile(#M3, fileLoc);
+		M3 model = readBinaryValueFile(#M3, fileLoc, compression = false);
 		if (print)
 		println("done");
 		return model;

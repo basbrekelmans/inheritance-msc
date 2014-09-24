@@ -46,7 +46,7 @@ public tuple[list[Subtype], set[loc]] checkForeachForSubtype(InheritanceContext 
 	Type usedType;
 	switch (collection@typ) {
 		case array(t, _): usedType = t;
-		case interface(_, [p]): usedType = p;
+		case \interface(_, [p]): usedType = p;
 		case class(_, [p]): usedType = p;
 		case other: {
 			println("UNKNOWN COLLECTION TYPE IN FOREACH");
