@@ -41,6 +41,12 @@ public tuple[list[Subtype], set[loc]] checkReturnStatementForSubtype(Inheritance
 	return <[],{}>;
 }
 
+public tuple[list[Subtype], set[loc]] checkForeachForSubtype(InheritanceContext ctx, Declaration parameter, Expression collection) {
+	iprintln(parameter);
+	iprintln(collection);
+	return <[], {}>;
+} 
+
 public tuple[list[Subtype], set[loc]] checkDirectCastForSubtype(InheritanceContext ctx, Expression cast, Type \type, Expression expr) {
 	list[Subtype] result = [];
 	set[loc] typesWithObjectSubtype = {};
@@ -185,11 +191,7 @@ private list[TypeSymbol] getParameters(InheritanceContext ctx, loc methodLoc, li
 					} else if (\class(loc decl, list[TypeSymbol] parameters) := receiverType) {
 						typeParams = parameters;
 						
-					} else if (\enum(loc decl) !:= receiverType) {
-						//enums do not have type params
-						iprintln("method loc: <methodLoc>");
-						throw "Unknown receiver type: <receiverType>";
-					}
+					} 
 					
 					if (size(typeParams) == 0) {
 						//no type params specified, but argument requires a type parameter
@@ -201,8 +203,6 @@ private list[TypeSymbol] getParameters(InheritanceContext ctx, loc methodLoc, li
 					}
 					else {
 						//unknown situation, multiple type parameters cannot be mapped
-						println("Unknown parameter: <s> (<arguments[0]@src>)");
-						println("Receiver type <receiverType>");
 						formalParameters += \void();
 					}
 				} else {
@@ -221,11 +221,7 @@ private list[TypeSymbol] getParameters(InheritanceContext ctx, loc methodLoc, li
 			lastParam = formalParameters[size(formalParameters) - 1];				
 			formalParameters += [lastParam | i <- [size(formalParameters)..size(arguments)]];						
 		} else if (size(formalParameters) > size(arguments)) {
-			println("Before:");
-			iprintln(formalParameters);
 			formalParameters = formalParameters[..size(arguments)];
-			println("After:");
-			iprintln(formalParameters);
 		}
 	}
 	return formalParameters;
@@ -240,11 +236,11 @@ public tuple[list[Subtype],set[loc]] checkConditionalForSubtype(InheritanceConte
 	list[Subtype] subtypes       = [];
 	set[loc]      objectSubtypes = {};
 	
-	<res,objst> = generateSubtypeTree(ctx, thenBranch@typ, conditional@typ, parameterPassed(), thenBranch@src);
+	<res,objst> = generateSubtypeTree(ctx, thenBranch@typ, conditional@typ, conditional(), thenBranch@src);
 	objectSubtypes += objst;
 	subtypes += res;
 	
-	<res2,objst2> = generateSubtypeTree(ctx, elseBranch@typ, conditional@typ, parameterPassed(), elseBranch@src);
+	<res2,objst2> = generateSubtypeTree(ctx, elseBranch@typ, conditional@typ, conditional(), elseBranch@src);
 	objectSubtypes += objst2;
 	subtypes += res2;
 	

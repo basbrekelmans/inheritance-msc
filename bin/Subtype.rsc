@@ -41,6 +41,12 @@ public tuple[list[Subtype], set[loc]] checkReturnStatementForSubtype(Inheritance
 	return <[],{}>;
 }
 
+public tuple[list[Subtype], set[loc]] checkForeachForSubtype(InheritanceContext ctx, Declaration parameter, Expression collection) {
+	iprintln(parameter);
+	iprintln(collection);
+	return <[], {}>;
+} 
+
 public tuple[list[Subtype], set[loc]] checkDirectCastForSubtype(InheritanceContext ctx, Expression cast, Type \type, Expression expr) {
 	list[Subtype] result = [];
 	set[loc] typesWithObjectSubtype = {};
@@ -139,6 +145,8 @@ public tuple[list[Subtype], set[loc]] checkCallForSubtype(InheritanceContext ctx
 			println("could not detect params at <receiver@src>");
 			println(methodLoc);
 			iprintln(formalParameters);
+			println("Supplied arguments were:");
+			iprintln(arguments);
 			throw "parameter error";
 		return [];
 	}
@@ -153,8 +161,10 @@ public tuple[list[Subtype], set[loc]] checkCallForSubtype(InheritanceContext ctx
 
 private list[TypeSymbol] getParameters(InheritanceContext ctx, loc methodLoc, list[Expression] arguments, TypeSymbol receiverType) {
 	list[TypeSymbol] formalParameters = [];
+	bool possibleVarArgs = false;
 	if (methodLoc in ctx@asts) {
 		formalParameters = [p@typ | p <- getFormalParameters(ctx@asts[methodLoc])];
+		possibleVarArgs = size(formalParameters) > 0 && array(_,_) := formalParameters[size(formalParameters) -1];
 	} else {
 		if (/.*\(<paramList:.*>\)/ := methodLoc.uri) {
 			for (s <- split(",", paramList)) {
@@ -180,9 +190,8 @@ private list[TypeSymbol] getParameters(InheritanceContext ctx, loc methodLoc, li
 						typeParams = parameters;
 					} else if (\class(loc decl, list[TypeSymbol] parameters) := receiverType) {
 						typeParams = parameters;
-					} else {
-						throw "Unknown receiver type: <receiverType>";
-					}
+						
+					} 
 					
 					if (size(typeParams) == 0) {
 						//no type params specified, but argument requires a type parameter
@@ -194,8 +203,6 @@ private list[TypeSymbol] getParameters(InheritanceContext ctx, loc methodLoc, li
 					}
 					else {
 						//unknown situation, multiple type parameters cannot be mapped
-						println("Unknown parameter: <s> (<arguments[0]@src>)");
-						println("Receiver type <receiverType>");
 						formalParameters += \void();
 					}
 				} else {
@@ -204,20 +211,17 @@ private list[TypeSymbol] getParameters(InheritanceContext ctx, loc methodLoc, li
 				}
 			}
 			
-			if (endsWith(uriDecode(paramList), "[]")) {	
-				if (size(formalParameters) < size(arguments)) {
-					lastParam = formalParameters[size(formalParameters) - 1];				
-					formalParameters += [lastParam | i <- [size(formalParameters)..size(arguments)]];						
-				} else if (size(formalParameters) > size(arguments)) {
-					println("Before:");
-					iprintln(formalParameters);
-					formalParameters = formalParameters[..size(arguments)];
-					println("After:");
-					iprintln(formalParameters);
-					
-				}
-			}
 			
+			possibleVarArgs = endsWith(uriDecode(paramList), "[]");			
+		}
+	}	
+			
+	if (possibleVarArgs) {	
+		if (size(formalParameters) < size(arguments)) {
+			lastParam = formalParameters[size(formalParameters) - 1];				
+			formalParameters += [lastParam | i <- [size(formalParameters)..size(arguments)]];						
+		} else if (size(formalParameters) > size(arguments)) {
+			formalParameters = formalParameters[..size(arguments)];
 		}
 	}
 	return formalParameters;
@@ -232,11 +236,11 @@ public tuple[list[Subtype],set[loc]] checkConditionalForSubtype(InheritanceConte
 	list[Subtype] subtypes       = [];
 	set[loc]      objectSubtypes = {};
 	
-	<res,objst> = generateSubtypeTree(ctx, thenBranch@typ, conditional@typ, parameterPassed(), thenBranch@src);
+	<res,objst> = generateSubtypeTree(ctx, thenBranch@typ, conditional@typ, conditional(), thenBranch@src);
 	objectSubtypes += objst;
 	subtypes += res;
 	
-	<res2,objst2> = generateSubtypeTree(ctx, elseBranch@typ, conditional@typ, parameterPassed(), elseBranch@src);
+	<res2,objst2> = generateSubtypeTree(ctx, elseBranch@typ, conditional@typ, conditional(), elseBranch@src);
 	objectSubtypes += objst2;
 	subtypes += res2;
 	
