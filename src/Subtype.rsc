@@ -42,9 +42,19 @@ public tuple[list[Subtype], set[loc]] checkReturnStatementForSubtype(Inheritance
 }
 
 public tuple[list[Subtype], set[loc]] checkForeachForSubtype(InheritanceContext ctx, Declaration parameter, Expression collection) {
-	iprintln(parameter);
-	iprintln(collection);
-	return <[], {}>;
+	declaredType = parameter@typ;
+	Type usedType;
+	switch (collection@typ) {
+		case array(t, _): usedType = t;
+		case interface(_, [p]): usedType = p;
+		case class(_, [p]): usedType = p;
+		case other: {
+			println("UNKNOWN COLLECTION TYPE IN FOREACH");
+			iprintln(collection);
+			return <[], {}>;
+		}
+	}
+	return generateSubtypeTree(ctx, usedType, declaredType, foreachStatement(), collection@src);
 } 
 
 public tuple[list[Subtype], set[loc]] checkDirectCastForSubtype(InheritanceContext ctx, Expression cast, Type \type, Expression expr) {
@@ -232,15 +242,15 @@ private set[str] primitiveTypes() {
 	return { "byte", "short", "int", "long", "float", "double", "boolean", "char" };
 }
 
-public tuple[list[Subtype],set[loc]] checkConditionalForSubtype(InheritanceContext ctx, loc declaration, Expression conditional, Expression thenBranch, Expression elseBranch) {
+public tuple[list[Subtype],set[loc]] checkConditionalForSubtype(InheritanceContext ctx, loc declaration, Expression cond, Expression thenBranch, Expression elseBranch) {
 	list[Subtype] subtypes       = [];
 	set[loc]      objectSubtypes = {};
 	
-	<res,objst> = generateSubtypeTree(ctx, thenBranch@typ, conditional@typ, conditional(), thenBranch@src);
+	<res,objst> = generateSubtypeTree(ctx, thenBranch@typ, cond@typ, conditional(), thenBranch@src);
 	objectSubtypes += objst;
 	subtypes += res;
 	
-	<res2,objst2> = generateSubtypeTree(ctx, elseBranch@typ, conditional@typ, conditional(), elseBranch@src);
+	<res2,objst2> = generateSubtypeTree(ctx, elseBranch@typ, cond@typ, conditional(), elseBranch@src);
 	objectSubtypes += objst2;
 	subtypes += res2;
 	

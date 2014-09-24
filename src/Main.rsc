@@ -141,7 +141,7 @@ private InheritanceContext visitCore(InheritanceContext ctx) {
 		    //case \arrayInitializer(list[Expression] elements):
 		    //handled by other cases
 		    case Statement foreach: \foreach(Declaration parameter, Expression collection, Statement body): {
-		    	<stResult, objectSubtyeps> = checkForeachForSubtype(ctx, parameter, collection);
+		    	<stResult, objectSubtypes> = checkForeachForSubtype(ctx, parameter, collection);
 		    	subtypes += stResult;
 		    	typesWithObjectSubtype += objectSubtypes;
 		    }
