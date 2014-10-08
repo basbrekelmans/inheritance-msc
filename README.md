@@ -1,0 +1,4 @@
+inheritance-msc
+===============
+
+Msc project 
