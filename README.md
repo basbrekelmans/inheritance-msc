@@ -10,6 +10,7 @@ Master Thesis project replicating the study "What Programmers do with Inheritanc
    * Two zip files with CSV data extracted from the source code
    * A T-SQL script generating the database (requires SQL Server)
    * A tool that inserts data from the CSV files into the database, written in C#
+   * A summary of data used in this study, containing detailed data from the original study
 
 ### Original study info  
 Title: What Programmers do with Inheritance in Java  
