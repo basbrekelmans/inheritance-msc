@@ -1,5 +1,3 @@
-## What Programmers do with Inheritance
-
 Master Thesis project replicating the study "What Programmers do with Inheritance in Java" done by Tempero, Yang and Noble.
 
 ### What's in this repository?
