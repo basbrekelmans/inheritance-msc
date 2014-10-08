@@ -2,8 +2,11 @@
 
 Master Thesis project replicating the study "What Programmers do with Inheritance in Java" done by Tempero, Yang and Noble.
 
-### What's on this page?
+### What's in this repository?
 
+ * The C# analysis tool in [C# Analysis tool](https://github.com/basbrekelmans/inheritance-msc/C# Analysis tool)
+ * The Java analysis tool in [Java analysis](https://github.com/basbrekelmans/inheritance-msc/Java analysis)
+ * The database used for analysing results in [Data & Database](https://github.com/basbrekelmans/inheritance-msc/Data & Database)
 
 
 
