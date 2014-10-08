@@ -4,11 +4,12 @@ Master Thesis project replicating the study "What Programmers do with Inheritanc
 
 ### What's in this repository?
 
- * The C# analysis tool in [C# Analysis tool](https://github.com/basbrekelmans/inheritance-msc/C# Analysis tool)
- * The Java analysis tool in [Java analysis](https://github.com/basbrekelmans/inheritance-msc/Java analysis)
- * The database used for analysing results in [Data & Database](https://github.com/basbrekelmans/inheritance-msc/Data & Database)
-
-
+ * The C# analysis tool in **C# Analysis tool**
+ * The Java analysis tool in **Java analysis**, written in [Rascal](https://github.com/cwi-swat/rascal)
+ * The database used for analysing results in **Data & Database** containing
+   * Two zip files with CSV data extracted from the source code
+   * A T-SQL script generating the database (requires SQL Server)
+   * A tool that inserts data from the CSV files into the database, written in C#
 
 ### Original study info  
 Title: What Programmers do with Inheritance in Java  
