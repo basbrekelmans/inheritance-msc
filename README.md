@@ -4,9 +4,9 @@ Master Thesis project replicating the study "What Programmers do with Inheritanc
 
 ### What's in this repository?
 
- * The C# analysis tool in [link](https://github.com/basbrekelmans/inheritance-msc/C# Analysis tool)<<<C# Analysis tool>>>
- * The Java analysis tool in [link](https://github.com/basbrekelmans/inheritance-msc/Java analysis)<<<Java analysis>>>
- * The database used for analysing results in [link](https://github.com/basbrekelmans/inheritance-msc/Data & Database)<<<Java analysis>>>
+ * The C# analysis tool in [C# Analysis tool](https://github.com/basbrekelmans/inheritance-msc/C# Analysis tool)
+ * The Java analysis tool in [Java analysis](https://github.com/basbrekelmans/inheritance-msc/Java analysis)
+ * The database used for analysing results in [Data & Database](https://github.com/basbrekelmans/inheritance-msc/Data & Database)
 
 
 
