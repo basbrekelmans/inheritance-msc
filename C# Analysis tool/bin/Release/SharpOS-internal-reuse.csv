@@ -1,0 +1,283 @@
+direct?;source;from;to;from declaration;to declaration
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;parent;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateDMAChannel;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIRQHandler;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/FloppyDiskDriver/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;parent;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/DiskController/IDEDiskDriver/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;parent;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIController/Initialize
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;parent;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice/(field initializer)
+False;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;Name;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;parent;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/PCI/PCIDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;parent;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;deviceStatus;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIOPort;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;CreateIRQHandler;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice;cs+class://SharpOS/Kernel/DeviceSystem/HardwareDevice;name;cs+class://SharpOS/Kernel/DeviceSystem/SerialDevice/Initialize
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadCluster
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadCluster
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/WriteCluster
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;blockSize;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;volumeLabel;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;serialNbr;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT;cs+class://SharpOS/Kernel/FileSystem/GenericFileSystem;valid;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FAT/ReadBootSector
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FATDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;name;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FATDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FATDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;parent;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FATDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FATDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;deviceStatus;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/FATDevice/(field initializer)
+False;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/VfsDirectory;cs+class://SharpOS/Kernel/Vfs/DirectoryNode;FileSystem;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/VfsDirectory/Lookup
+False;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/VfsDirectory;cs+class://SharpOS/Kernel/Vfs/DirectoryNode;FileSystem;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/VfsDirectory/Lookup
+False;MethodCall;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/VfsDirectory;cs+class://SharpOS/Kernel/Vfs/DirectoryNode;FileSystem;cs+class://SharpOS/Kernel/FileSystem/FATFileSystem/VfsDirectory/Delete
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/DiskDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;parent;cs+class://SharpOS/Kernel/FileSystem/DiskDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/DiskDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;name;cs+class://SharpOS/Kernel/FileSystem/DiskDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/FileSystem/DiskDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;Name;cs+class://SharpOS/Kernel/FileSystem/DiskDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/DiskDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;parent;cs+class://SharpOS/Kernel/FileSystem/DiskDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/DiskDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;deviceStatus;cs+class://SharpOS/Kernel/FileSystem/DiskDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;parent;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;name;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;Name;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;parent;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice;cs+class://SharpOS/Kernel/DeviceSystem/Device;deviceStatus;cs+class://SharpOS/Kernel/FileSystem/PartitionDevice/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/FieldSignature;cs+class://SharpOS/Korlib/Runtime/Signature;DecompressValue;cs+class://SharpOS/Korlib/Runtime/FieldSignature/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/FieldSignature;cs+class://SharpOS/Korlib/Runtime/Signature;DecompressValue;cs+class://SharpOS/Korlib/Runtime/FieldSignature/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/FieldSignature;cs+class://SharpOS/Korlib/Runtime/Signature;DecompressValue;cs+class://SharpOS/Korlib/Runtime/FieldSignature/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/FieldSignature;cs+class://SharpOS/Korlib/Runtime/Signature;DecompressValue;cs+class://SharpOS/Korlib/Runtime/FieldSignature/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/FieldSignature;cs+class://SharpOS/Korlib/Runtime/Signature;DecompressValue;cs+class://SharpOS/Korlib/Runtime/FieldSignature/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/(field initializer)
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/(field initializer)
+True;FieldAccess;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/FillStrings
+True;FieldAccess;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/FillStrings
+True;MethodCall;cs+class://SharpOS/Korlib/Runtime/TypeMetadata;cs+class://SharpOS/Korlib/Runtime/Metadata;Assembly;cs+class://SharpOS/Korlib/Runtime/TypeMetadata/ResolveField
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Add;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Add/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Add;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Add/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Add;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Add/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Add;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetArithmeticalResultType;cs+class://SharpOS/AOT/IR/Instructions/Add/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/And;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/And/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/And;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/And/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/And;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/And/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/And;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetBitwiseResultType;cs+class://SharpOS/AOT/IR/Instructions/And/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Call;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;def;cs+class://SharpOS/AOT/IR/Instructions/Call/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Call;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;def;cs+class://SharpOS/AOT/IR/Instructions/Call/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Call;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;method;cs+class://SharpOS/AOT/IR/Instructions/Call/Process
+False;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Call;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;AdjustRegisterInternalType;cs+class://SharpOS/AOT/IR/Instructions/Call/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Call;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;def;cs+class://SharpOS/AOT/IR/Instructions/Call/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Call;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;method;cs+class://SharpOS/AOT/IR/Instructions/Call/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Castclass;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Castclass/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Castclass;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Castclass/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/ConditionCheck;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/ConditionCheck/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Div;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Div/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Div;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Div/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Div;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Div/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Div;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetArithmeticalResultType;cs+class://SharpOS/AOT/IR/Instructions/Div/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Dup;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Dup/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Dup;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Dup/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Dup;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Dup/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Dup;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Dup/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Isinst;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Isinst/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Isinst;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Isinst/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldarg;cs+class://SharpOS/AOT/IR/Instructions/Instruction;LdProcess;cs+class://SharpOS/AOT/IR/Instructions/Ldarg/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldarga;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldarga/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldelem;cs+class://SharpOS/AOT/IR/Instructions/Instruction;AdjustRegisterInternalType;cs+class://SharpOS/AOT/IR/Instructions/Ldelem/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldelem;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldelem/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldelem;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Ldelem/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldelema;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldelema/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldelema;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldelema/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldfld;cs+class://SharpOS/AOT/IR/Instructions/Instruction;LdfldProcess;cs+class://SharpOS/AOT/IR/Instructions/Ldfld/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldflda;cs+class://SharpOS/AOT/IR/Instructions/Instruction;LdfldProcess;cs+class://SharpOS/AOT/IR/Instructions/Ldflda/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldflda;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldflda/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldftn;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldftn/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldind;cs+class://SharpOS/AOT/IR/Instructions/Instruction;AdjustRegisterInternalType;cs+class://SharpOS/AOT/IR/Instructions/Ldind/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldlen;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldlen/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldloc;cs+class://SharpOS/AOT/IR/Instructions/Instruction;LdProcess;cs+class://SharpOS/AOT/IR/Instructions/Ldloc/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldloca;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldloca/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldnull;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldnull/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldsfld;cs+class://SharpOS/AOT/IR/Instructions/Instruction;LdfldProcess;cs+class://SharpOS/AOT/IR/Instructions/Ldsfld/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Ldsflda;cs+class://SharpOS/AOT/IR/Instructions/Instruction;LdfldProcess;cs+class://SharpOS/AOT/IR/Instructions/Ldsflda/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldsflda;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldsflda/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldstr;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldstr/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Ldtoken;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Ldtoken/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Localloc;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Localloc/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Mul;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Mul/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Mul;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Mul/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Mul;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Mul/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Mul;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetArithmeticalResultType;cs+class://SharpOS/AOT/IR/Instructions/Mul/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Neg;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Neg/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Neg;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Neg/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newarr;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Newarr/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newarr;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Newarr/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newobj;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;method;cs+class://SharpOS/AOT/IR/Instructions/Newobj/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newobj;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;def;cs+class://SharpOS/AOT/IR/Instructions/Newobj/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newobj;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;def;cs+class://SharpOS/AOT/IR/Instructions/Newobj/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newobj;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;method;cs+class://SharpOS/AOT/IR/Instructions/Newobj/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newobj;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;method;cs+class://SharpOS/AOT/IR/Instructions/Newobj/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newobj;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;def;cs+class://SharpOS/AOT/IR/Instructions/Newobj/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Newobj;cs+class://SharpOS/AOT/IR/Instructions/CallInstruction;def;cs+class://SharpOS/AOT/IR/Instructions/Newobj/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Not;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Not/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Not;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Not/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Or;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Or/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Or;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Or/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Or;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Or/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Or;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetBitwiseResultType;cs+class://SharpOS/AOT/IR/Instructions/Or/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/PHI/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/PHI/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/PHI/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/PHI/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/PHI/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/PHI/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/PHI/Attach
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/PHI;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/PHI/Attach
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Rem;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Rem/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Rem;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Rem/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Rem;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Rem/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Rem;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetArithmeticalResultType;cs+class://SharpOS/AOT/IR/Instructions/Rem/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Shl;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Shl/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Shl;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Shl/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Shr;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Shr/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Shr;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Shr/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/SizeOf;cs+class://SharpOS/AOT/IR/Instructions/Instruction;name;cs+class://SharpOS/AOT/IR/Instructions/SizeOf/ToString
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/SizeOf;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/SizeOf/ToString
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/SizeOf;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/SizeOf/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Stfld;cs+class://SharpOS/AOT/IR/Instructions/Instruction;StfldProcess;cs+class://SharpOS/AOT/IR/Instructions/Stfld/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Stsfld;cs+class://SharpOS/AOT/IR/Instructions/Instruction;StfldProcess;cs+class://SharpOS/AOT/IR/Instructions/Stsfld/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Sub;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Sub/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Sub;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Sub/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Sub;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Sub/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Sub;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetArithmeticalResultType;cs+class://SharpOS/AOT/IR/Instructions/Sub/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/UnboxAny;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/UnboxAny/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/UnboxAny;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/UnboxAny/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Xor;cs+class://SharpOS/AOT/IR/Instructions/Instruction;def;cs+class://SharpOS/AOT/IR/Instructions/Xor/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Xor;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Xor/Process
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Instructions/Xor;cs+class://SharpOS/AOT/IR/Instructions/Instruction;use;cs+class://SharpOS/AOT/IR/Instructions/Xor/Process
+True;MethodCall;cs+class://SharpOS/AOT/IR/Instructions/Xor;cs+class://SharpOS/AOT/IR/Instructions/Instruction;GetBitwiseResultType;cs+class://SharpOS/AOT/IR/Instructions/Xor/Process
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Argument;cs+class://SharpOS/AOT/IR/Operands/Identifier;type;cs+class://SharpOS/AOT/IR/Operands/Argument/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Argument;cs+class://SharpOS/AOT/IR/Operands/Identifier;internalType;cs+class://SharpOS/AOT/IR/Operands/Argument/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Argument;cs+class://SharpOS/AOT/IR/Operands/Identifier;forceSpill;cs+class://SharpOS/AOT/IR/Operands/Argument/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/IR/Operands/DoubleConstant;cs+class://SharpOS/AOT/IR/Operands/Constant;InternalType;cs+class://SharpOS/AOT/IR/Operands/DoubleConstant/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Field;cs+class://SharpOS/AOT/IR/Operands/Operand;type;cs+class://SharpOS/AOT/IR/Operands/Field/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Field;cs+class://SharpOS/AOT/IR/Operands/Operand;internalType;cs+class://SharpOS/AOT/IR/Operands/Field/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Field;cs+class://SharpOS/AOT/IR/Operands/Operand;internalType;cs+class://SharpOS/AOT/IR/Operands/Field/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Field;cs+class://SharpOS/AOT/IR/Operands/Operand;type;cs+class://SharpOS/AOT/IR/Operands/Field/ToString
+False;MethodCall;cs+class://SharpOS/AOT/IR/Operands/FloatConstant;cs+class://SharpOS/AOT/IR/Operands/Constant;InternalType;cs+class://SharpOS/AOT/IR/Operands/FloatConstant/(field initializer)
+True;MethodCall;cs+class://SharpOS/AOT/IR/Operands/Identifier;cs+class://SharpOS/AOT/IR/Operands/Operand;InternalType;cs+class://SharpOS/AOT/IR/Operands/Identifier/ToString
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Identifier;cs+class://SharpOS/AOT/IR/Operands/Operand;internalType;cs+class://SharpOS/AOT/IR/Operands/Identifier/ToString
+True;MethodCall;cs+class://SharpOS/AOT/IR/Operands/Identifier;cs+class://SharpOS/AOT/IR/Operands/Operand;Type;cs+class://SharpOS/AOT/IR/Operands/Identifier/(field initializer)
+True;MethodCall;cs+class://SharpOS/AOT/IR/Operands/Identifier;cs+class://SharpOS/AOT/IR/Operands/Operand;Type;cs+class://SharpOS/AOT/IR/Operands/Identifier/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/IR/Operands/IntConstant;cs+class://SharpOS/AOT/IR/Operands/Constant;InternalType;cs+class://SharpOS/AOT/IR/Operands/IntConstant/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Local;cs+class://SharpOS/AOT/IR/Operands/Identifier;type;cs+class://SharpOS/AOT/IR/Operands/Local/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Local;cs+class://SharpOS/AOT/IR/Operands/Identifier;internalType;cs+class://SharpOS/AOT/IR/Operands/Local/(field initializer)
+True;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/Local;cs+class://SharpOS/AOT/IR/Operands/Identifier;forceSpill;cs+class://SharpOS/AOT/IR/Operands/Local/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/IR/Operands/LongConstant;cs+class://SharpOS/AOT/IR/Operands/Constant;InternalType;cs+class://SharpOS/AOT/IR/Operands/LongConstant/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/IR/Operands/NullConstant;cs+class://SharpOS/AOT/IR/Operands/Constant;InternalType;cs+class://SharpOS/AOT/IR/Operands/NullConstant/(field initializer)
+True;MethodCall;cs+class://SharpOS/AOT/IR/Operands/Register;cs+class://SharpOS/AOT/IR/Operands/Identifier;ToString;cs+class://SharpOS/AOT/IR/Operands/Register/ToString
+True;MethodCall;cs+class://SharpOS/AOT/IR/Operands/Register;cs+class://SharpOS/AOT/IR/Operands/Identifier;ToString;cs+class://SharpOS/AOT/IR/Operands/Register/ToString
+False;FieldAccess;cs+class://SharpOS/AOT/IR/Operands/StringConstant;cs+class://SharpOS/AOT/IR/Operands/Constant;internalType;cs+class://SharpOS/AOT/IR/Operands/StringConstant/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/AddressOf;cs+class://SharpOS/AOT/X86/DWordDataInstruction;value;cs+class://SharpOS/AOT/X86/AddressOf/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/Encode
+False;FieldAccess;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/BlobDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/ByteDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/ByteDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/ByteDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/ByteDataInstruction/Encode
+False;FieldAccess;cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/ByteDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/ByteDataInstruction/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Parameters;cs+class://SharpOS/AOT/X86/ByteDataInstruction/(field initializer)
+True;MethodCall;cs+class://SharpOS/AOT/X86/CommentInstruction;cs+class://SharpOS/AOT/X86/Instruction;Name;cs+class://SharpOS/AOT/X86/CommentInstruction/ToString
+False;MethodCall;cs+class://SharpOS/AOT/X86/DWordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/DWordDataInstruction/Encode
+False;FieldAccess;cs+class://SharpOS/AOT/X86/DWordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/DWordDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/DWordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/DWordDataInstruction/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/X86/DWordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Parameters;cs+class://SharpOS/AOT/X86/DWordDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/WordDataInstruction/(field initializer)
+False;FieldAccess;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/WordDataInstruction/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Parameters;cs+class://SharpOS/AOT/X86/WordDataInstruction/(field initializer)
+False;MethodCall;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/WordDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/WordDataInstruction/Encode
+False;FieldAccess;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;value;cs+class://SharpOS/AOT/X86/WordDataInstruction/Encode
+False;MethodCall;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Value;cs+class://SharpOS/AOT/X86/WordDataInstruction/Encode
+True;MethodCall;cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Encode;cs+class://SharpOS/AOT/X86/WordDataInstruction/Encode
+True;FieldAccess;cs+class://SharpOS/Kernel/Tests/CS/Abstract/SubClass;cs+class://SharpOS/Kernel/Tests/CS/Abstract/Base;number;cs+class://SharpOS/Kernel/Tests/CS/Abstract/SubClass/(field initializer)
+True;MethodCall;cs+class://SharpOS/Kernel/Tests/CS/Abstract/SubClass;cs+class://SharpOS/Kernel/Tests/CS/Abstract/Base;GetNumber;cs+class://SharpOS/Kernel/Tests/CS/Abstract/SubClass/GetInheritedNumber
+True;MethodCall;cs+class://SharpOS/Kernel/Tests/CS/Inheritance/SubClass;cs+class://SharpOS/Kernel/Tests/CS/Inheritance/Base;GetNumber;cs+class://SharpOS/Kernel/Tests/CS/Inheritance/SubClass/GetInheritedNumber
+True;MethodCall;cs+class://SharpOS/Kernel/Tests/CS/Objects/SuperPoint;cs+class://SharpOS/Kernel/Tests/CS/Objects/Point;GetSum;cs+class://SharpOS/Kernel/Tests/CS/Objects/SuperPoint/GetSum
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow;cs+class://System/Windows/Forms/Form;Dispose;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow/Dispose
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow;cs+class://System/Windows/Forms/Form;Text;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow;cs+class://System/Windows/Forms/Form;Shown;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow;cs+class://System/Windows/Forms/Form;FormClosing;cs+class://SharpOS/Tools/DiagnosticTool/MainWindow/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView;cs+class://System/Windows/Forms/Form;Dispose;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView/Dispose
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView;cs+class://System/Windows/Forms/Form;FormBorderStyle;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView;cs+class://System/Windows/Forms/Form;ShowInTaskbar;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView;cs+class://System/Windows/Forms/Form;Text;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView;cs+class://System/Windows/Forms/Form;Shown;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView;cs+class://System/Windows/Forms/Form;FormClosing;cs+class://SharpOS/Tools/DiagnosticTool/MemoryView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView;cs+class://System/Windows/Forms/Form;Dispose;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView/Dispose
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView;cs+class://System/Windows/Forms/Form;FormBorderStyle;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView;cs+class://System/Windows/Forms/Form;ShowInTaskbar;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView;cs+class://System/Windows/Forms/Form;Text;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView/InitializeComponent
+True;MethodCall;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView;cs+class://System/Windows/Forms/Form;FormClosing;cs+class://SharpOS/Tools/DiagnosticTool/UnitTestsView/InitializeComponent

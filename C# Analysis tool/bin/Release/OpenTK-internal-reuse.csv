@@ -1,0 +1,923 @@
+direct?;source;from;to;from declaration;to declaration
+True;MethodCall;cs+class://OpenTK/Platform/Egl/EglUnixContext;cs+class://OpenTK/Platform/Egl/EglContext;Dispose;cs+class://OpenTK/Platform/Egl/EglUnixContext/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/Egl/EglWinContext;cs+class://OpenTK/Platform/Egl/EglContext;Dispose;cs+class://OpenTK/Platform/Egl/EglWinContext/Dispose
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowInfo;cs+class://OpenTK/GameWindow/(field initializer)
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowInfo;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Dispose;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Dispose;cs+class://OpenTK/GameWindow/Dispose
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Dispose;cs+class://OpenTK/GameWindow/Dispose
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Close;cs+class://OpenTK/GameWindow/Exit
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/MakeCurrent
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowInfo;cs+class://OpenTK/GameWindow/MakeCurrent
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;OnClosing;cs+class://OpenTK/GameWindow/OnClosing
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/Run
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Visible;cs+class://OpenTK/GameWindow/Run
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;ProcessEvents;cs+class://OpenTK/GameWindow/Run
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Exists;cs+class://OpenTK/GameWindow/Run
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Move;cs+class://OpenTK/GameWindow/Run
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Resize;cs+class://OpenTK/GameWindow/Run
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Exists;cs+class://OpenTK/GameWindow/Run
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/SwapBuffers
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;EnsureUndisposed;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowState;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowState;cs+class://OpenTK/GameWindow/(field initializer)
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowInfo;cs+class://OpenTK/GameWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;OnResize;cs+class://OpenTK/GameWindow/OnResize
+True;MethodCall;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowInfo;cs+class://OpenTK/GameWindow/OnResize
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Exists;cs+class://OpenTK/GameWindow/OnRenderFrameInternal
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;Exists;cs+class://OpenTK/GameWindow/OnUpdateFrameInternal
+True;FieldAccess;cs+class://OpenTK/GameWindow;cs+class://OpenTK/NativeWindow;WindowInfo;cs+class://OpenTK/GameWindow/OnWindowInfoChangedInternal
+False;FieldAccess;cs+class://OpenTK/Platform/Dummy/DummyGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Dummy/DummyGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Dummy/DummyGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Dummy/DummyGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Dummy/DummyGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/Platform/Dummy/DummyGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Dummy/DummyGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/Dummy/DummyGLContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/Egl/EglContext;cs+class://OpenTK/Platform/EmbeddedGraphicsContext;Handle;cs+class://OpenTK/Platform/Egl/EglContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Egl/EglContext;cs+class://OpenTK/Platform/EmbeddedGraphicsContext;Mode;cs+class://OpenTK/Platform/Egl/EglContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Egl/EglContext;cs+class://OpenTK/Platform/EmbeddedGraphicsContext;Handle;cs+class://OpenTK/Platform/Egl/EglContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Egl/EglContext;cs+class://OpenTK/Platform/EmbeddedGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/Egl/EglContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/Egl/EglContext;cs+class://OpenTK/Platform/EmbeddedGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/Egl/EglContext/Dispose
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/MacOSFactory;cs+class://OpenTK/Platform/PlatformFactoryBase;IsDisposed;cs+class://OpenTK/Platform/MacOS/MacOSFactory/Dispose
+False;MethodCall;cs+class://OpenTK/Platform/MacOS/MacOSFactory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/MacOS/MacOSFactory/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/MacOSFactory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/MacOS/MacOSFactory/Dispose
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/QuartzDisplayDeviceDriver;cs+class://OpenTK/Platform/DisplayDeviceBase;Primary;cs+class://OpenTK/Platform/MacOS/QuartzDisplayDeviceDriver/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/Windows/WinFactory;cs+class://OpenTK/Platform/PlatformFactoryBase;IsDisposed;cs+class://OpenTK/Platform/Windows/WinFactory/Dispose
+False;MethodCall;cs+class://OpenTK/Platform/Windows/WinFactory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/Windows/WinFactory/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinFactory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/Windows/WinFactory/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinRawInput;cs+class://OpenTK/Platform/Windows/WinInputBase;WindowProcedure;cs+class://OpenTK/Platform/Windows/WinRawInput/WindowProcedure
+True;FieldAccess;cs+class://OpenTK/Platform/Windows/WinRawInput;cs+class://OpenTK/Platform/Windows/WinInputBase;Parent;cs+class://OpenTK/Platform/Windows/WinRawInput/CreateDrivers
+True;FieldAccess;cs+class://OpenTK/Platform/Windows/WinRawInput;cs+class://OpenTK/Platform/Windows/WinInputBase;Disposed;cs+class://OpenTK/Platform/Windows/WinRawInput/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinRawInput;cs+class://OpenTK/Platform/Windows/WinInputBase;Dispose;cs+class://OpenTK/Platform/Windows/WinRawInput/Dispose
+True;FieldAccess;cs+class://OpenTK/Platform/Windows/WinDisplayDeviceDriver;cs+class://OpenTK/Platform/DisplayDeviceBase;Primary;cs+class://OpenTK/Platform/Windows/WinDisplayDeviceDriver/RefreshDisplayDevices
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleActivate
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMove;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleWindowPositionChanged
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnResize;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleWindowPositionChanged
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowBorderChanged;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleStyleChanged
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleSize
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyPress;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleChar
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseMove;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMouseMove
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseMove;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMouseMove
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseEnter;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMouseMove
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseLeave;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMouseLeave
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseWheel;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMouseWheel
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseWheel;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMouseHWheel
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleLButtonDown
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMButtonDown
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleRButtonDown
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleXButtonDown
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleLButtonUp
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleMButtonUp
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleRButtonUp
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleXButtonUp
+True;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;KeyboardState;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleKeyboard
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyDown;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleKeyboard
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyUp;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleKeyboard
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnClosing;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleClose
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnClosed;cs+class://OpenTK/Platform/Windows/WinGLNative/HandleDestroy
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnIconChanged;cs+class://OpenTK/Platform/Windows/WinGLNative/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnTitleChanged;cs+class://OpenTK/Platform/Windows/WinGLNative/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnVisibleChanged;cs+class://OpenTK/Platform/Windows/WinGLNative/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;ProcessEvents;cs+class://OpenTK/Platform/Windows/WinGLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnDisposed;cs+class://OpenTK/Platform/Windows/WinGLNative/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Context;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Dispose;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Context;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;LoadAll;cs+class://OpenTK/Platform/Windows/WinGLContext/LoadAll
+False;MethodCall;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Context;cs+class://OpenTK/Platform/Windows/WinGLContext/ToString
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/Windows/WinGLContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/Windows/WinGLContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/DestroyContext
+False;FieldAccess;cs+class://OpenTK/Platform/Windows/WinGLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/Windows/WinGLContext/DestroyContext
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11DisplayDevice;cs+class://OpenTK/Platform/DisplayDeviceBase;Primary;cs+class://OpenTK/Platform/X11/X11DisplayDevice/RefreshDisplayDevices
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;Location;cs+class://OpenTK/Platform/X11/X11GLNative/RefreshWindowBounds
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMove;cs+class://OpenTK/Platform/X11/X11GLNative/RefreshWindowBounds
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnResize;cs+class://OpenTK/Platform/X11/X11GLNative/RefreshWindowBounds
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;ProcessEvents;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnVisibleChanged;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnVisibleChanged;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnClosing;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnClosed;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;KeyboardState;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyDown;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyUp;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyPress;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;Width;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseMove;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseWheel;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;Width;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseMove;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseLeave;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseEnter;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/X11/X11GLNative/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnIconChanged;cs+class://OpenTK/Platform/X11/X11GLNative/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowBorderChanged;cs+class://OpenTK/Platform/X11/X11GLNative/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;Width;cs+class://OpenTK/Platform/X11/X11GLNative/ChangeWindowBorder
+True;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/X11/X11GLNative/ChangeWindowBorder
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLNative;cs+class://OpenTK/Platform/NativeWindowBase;OnTitleChanged;cs+class://OpenTK/Platform/X11/X11GLNative/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;MethodCall;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Context;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/MakeCurrent
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/MakeCurrent
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/MakeCurrent
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/MakeCurrent
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;LoadAll;cs+class://OpenTK/Platform/X11/X11GLContext/LoadAll
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/X11/X11GLContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/X11/X11GLContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/X11/X11GLContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/X11/X11GLContext/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/X11/X11Factory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/X11/X11Factory/Dispose
+False;MethodCall;cs+class://OpenTK/Platform/X11/X11Factory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/X11/X11Factory/Dispose
+True;FieldAccess;cs+class://OpenTK/Platform/X11/Glx;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointsInstance;cs+class://OpenTK/Platform/X11/Glx/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/X11/Glx;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNamesInstance;cs+class://OpenTK/Platform/X11/Glx/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/X11/Glx;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNameOffsetsInstance;cs+class://OpenTK/Platform/X11/Glx/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/X11/Glx;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNamesInstance;cs+class://OpenTK/Platform/X11/Glx/LoadEntryPoints
+True;FieldAccess;cs+class://OpenTK/Platform/X11/Glx;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointsInstance;cs+class://OpenTK/Platform/X11/Glx/LoadEntryPoints
+True;FieldAccess;cs+class://OpenTK/Platform/X11/Glx;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNameOffsetsInstance;cs+class://OpenTK/Platform/X11/Glx/LoadEntryPoints
+True;FieldAccess;cs+class://OpenTK/Graphics/OpenGL/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointsInstance;cs+class://OpenTK/Graphics/OpenGL/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/OpenGL/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNamesInstance;cs+class://OpenTK/Graphics/OpenGL/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/OpenGL/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNameOffsetsInstance;cs+class://OpenTK/Graphics/OpenGL/GL/(field initializer)
+True;MethodCall;cs+class://OpenTK/Graphics/OpenGL/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;LoadEntryPoints;cs+class://OpenTK/Graphics/OpenGL/GL/LoadAll
+True;FieldAccess;cs+class://OpenTK/Graphics/ES11/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointsInstance;cs+class://OpenTK/Graphics/ES11/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/ES11/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNamesInstance;cs+class://OpenTK/Graphics/ES11/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/ES11/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNameOffsetsInstance;cs+class://OpenTK/Graphics/ES11/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/ES20/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointsInstance;cs+class://OpenTK/Graphics/ES20/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/ES20/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNamesInstance;cs+class://OpenTK/Graphics/ES20/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/ES20/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNameOffsetsInstance;cs+class://OpenTK/Graphics/ES20/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2DisplayDeviceDriver;cs+class://OpenTK/Platform/DisplayDeviceBase;Primary;cs+class://OpenTK/Platform/SDL2/Sdl2DisplayDeviceDriver/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2Factory;cs+class://OpenTK/Platform/PlatformFactoryBase;IsDisposed;cs+class://OpenTK/Platform/SDL2/Sdl2Factory/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2Factory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/SDL2/Sdl2Factory/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/(field initializer)
+False;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsCurrent;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/SetGLAttributes
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Context;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/Dispose
+False;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/Platform/SDL2/Sdl2GraphicsContext/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessMouseButtonEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessMouseButtonEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyDown;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessKeyEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyUp;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessKeyEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyPress;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessTextInputEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseMove;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessMouseMotionEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseWheel;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessMouseWheelEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnClosing;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnClosed;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseEnter;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseLeave;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnVisibleChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnVisibleChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMove;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnResize;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessWindowEvent
+True;FieldAccess;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Width;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/GrabCursor
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;ProcessEvents;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnIconChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowBorderChanged;cs+class://OpenTK/Platform/SDL2/Sdl2NativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/Egl/EglSdl2PlatformFactory;cs+class://OpenTK/Platform/SDL2/Sdl2Factory;CreateGLContext;cs+class://OpenTK/Platform/Egl/EglSdl2PlatformFactory/CreateGLContext
+True;FieldAccess;cs+class://OpenTK/Graphics/ES30/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointsInstance;cs+class://OpenTK/Graphics/ES30/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/ES30/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNamesInstance;cs+class://OpenTK/Graphics/ES30/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/ES30/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNameOffsetsInstance;cs+class://OpenTK/Graphics/ES30/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/OpenGL4/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointsInstance;cs+class://OpenTK/Graphics/OpenGL4/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/OpenGL4/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNamesInstance;cs+class://OpenTK/Graphics/OpenGL4/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Graphics/OpenGL4/GL;cs+class://OpenTK/Graphics/GraphicsBindingsBase;_EntryPointNameOffsetsInstance;cs+class://OpenTK/Graphics/OpenGL4/GL/(field initializer)
+True;FieldAccess;cs+class://OpenTK/MouseCursor;cs+class://OpenTK/WindowIcon;Width;cs+class://OpenTK/MouseCursor/(field initializer)
+True;FieldAccess;cs+class://OpenTK/MouseCursor;cs+class://OpenTK/WindowIcon;Height;cs+class://OpenTK/MouseCursor/(field initializer)
+True;FieldAccess;cs+class://OpenTK/MouseCursor;cs+class://OpenTK/WindowIcon;Width;cs+class://OpenTK/MouseCursor/(field initializer)
+True;FieldAccess;cs+class://OpenTK/MouseCursor;cs+class://OpenTK/WindowIcon;Height;cs+class://OpenTK/MouseCursor/(field initializer)
+False;FieldAccess;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/CocoaContext/(field initializer)
+False;MethodCall;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Context;cs+class://OpenTK/CocoaContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/CocoaContext/(field initializer)
+False;FieldAccess;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/CocoaContext/CreateContext
+False;FieldAccess;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Mode;cs+class://OpenTK/CocoaContext/CreateContext
+False;FieldAccess;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/CocoaContext/Dispose
+False;FieldAccess;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;Handle;cs+class://OpenTK/CocoaContext/Dispose
+False;FieldAccess;cs+class://OpenTK/CocoaContext;cs+class://OpenTK/Platform/DesktopGraphicsContext;IsDisposed;cs+class://OpenTK/CocoaContext/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnResize;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/OnResize
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMove;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowDidMove
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowDidBecomeKey
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowDidResignKey
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowDidMiniaturize
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowDidDeminiaturize
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowShouldZoomToFrame
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnClosing;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowShouldClose
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnClosed;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/WindowShouldClose
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;ProcessEvents;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyDown;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyPress;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyUp;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;UpdateModifierFlags;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseEnter;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseLeave;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Width;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Width;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseMove;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseWheel;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/PointToClient
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Height;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/PointToScreen
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnIconChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnVisibleChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowStateChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnResize;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnWindowBorderChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Size;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnDisposed;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnTitleChanged;cs+class://OpenTK/Platform/MacOS/CocoaNativeWindow/SetTitle
+True;MethodCall;cs+class://OpenTK/Input/MouseMoveEventArgs;cs+class://OpenTK/Input/MouseEventArgs;X;cs+class://OpenTK/Input/MouseMoveEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Input/MouseMoveEventArgs;cs+class://OpenTK/Input/MouseEventArgs;Y;cs+class://OpenTK/Input/MouseMoveEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Input/MouseButtonEventArgs;cs+class://OpenTK/Input/MouseEventArgs;X;cs+class://OpenTK/Input/MouseButtonEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Input/MouseButtonEventArgs;cs+class://OpenTK/Input/MouseEventArgs;Y;cs+class://OpenTK/Input/MouseButtonEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Input/MouseButtonEventArgs;cs+class://OpenTK/Input/MouseEventArgs;GetButton;cs+class://OpenTK/Input/MouseButtonEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Input/MouseButtonEventArgs;cs+class://OpenTK/Input/MouseEventArgs;SetButton;cs+class://OpenTK/Input/MouseButtonEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Input/MouseWheelEventArgs;cs+class://OpenTK/Input/MouseEventArgs;X;cs+class://OpenTK/Input/MouseWheelEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Input/MouseWheelEventArgs;cs+class://OpenTK/Input/MouseEventArgs;Y;cs+class://OpenTK/Input/MouseWheelEventArgs/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxFactory;cs+class://OpenTK/Platform/PlatformFactoryBase;Dispose;cs+class://OpenTK/Platform/Linux/LinuxFactory/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyDown;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessKeyboard
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnKeyUp;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessKeyboard
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseDown;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessMouse
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseUp;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessMouse
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseMove;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessMouse
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseWheel;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessMouse
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseLeave;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessMouse
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnMouseEnter;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessMouse
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnFocusedChanged;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/SetFocus
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;ProcessEvents;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/ProcessEvents
+True;FieldAccess;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Location;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/PointToClient
+True;FieldAccess;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;Location;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/PointToScreen
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnIconChanged;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/(field initializer)
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow;cs+class://OpenTK/Platform/NativeWindowBase;OnTitleChanged;cs+class://OpenTK/Platform/Linux/LinuxNativeWindow/(field initializer)
+True;FieldAccess;cs+class://OpenTK/Platform/Linux/LinuxDisplayDriver;cs+class://OpenTK/Platform/DisplayDeviceBase;AvailableDevices;cs+class://OpenTK/Platform/Linux/LinuxDisplayDriver/UpdateDisplayIndices
+True;FieldAccess;cs+class://OpenTK/Platform/Linux/LinuxDisplayDriver;cs+class://OpenTK/Platform/DisplayDeviceBase;Primary;cs+class://OpenTK/Platform/Linux/LinuxDisplayDriver/AddDisplay
+False;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext;cs+class://OpenTK/Platform/Egl/EglUnixContext;SwapBuffers;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext/SwapBuffers
+False;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext;cs+class://OpenTK/Platform/Egl/EglUnixContext;SwapBuffers;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext/Update
+False;FieldAccess;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext;cs+class://OpenTK/Platform/Egl/EglUnixContext;WindowInfo;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext/QueueFlip
+False;FieldAccess;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext;cs+class://OpenTK/Platform/Egl/EglUnixContext;WindowInfo;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext/SetScanoutRegion
+False;FieldAccess;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext;cs+class://OpenTK/Platform/Egl/EglUnixContext;WindowInfo;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext/Dispose
+True;MethodCall;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext;cs+class://OpenTK/Platform/Egl/EglUnixContext;Dispose;cs+class://OpenTK/Platform/Linux/LinuxGraphicsContext/Dispose
+True;FieldAccess;cs+class://OpenTK/Graphics/DisplayListTextHandle;cs+class://OpenTK/Graphics/TextHandle;Handle;cs+class://OpenTK/Graphics/DisplayListTextHandle/ToString
+True;FieldAccess;cs+class://OpenTK/Graphics/DisplayListTextHandle;cs+class://OpenTK/Graphics/TextHandle;disposed;cs+class://OpenTK/Graphics/DisplayListTextHandle/Dispose
+True;FieldAccess;cs+class://OpenTK/Graphics/DisplayListTextHandle;cs+class://OpenTK/Graphics/TextHandle;Handle;cs+class://OpenTK/Graphics/DisplayListTextHandle/Dispose
+True;FieldAccess;cs+class://OpenTK/Graphics/DisplayListTextHandle;cs+class://OpenTK/Graphics/TextHandle;disposed;cs+class://OpenTK/Graphics/DisplayListTextHandle/Dispose
+True;FieldAccess;cs+class://OpenTK/Graphics/VboTextHandle;cs+class://OpenTK/Graphics/TextHandle;Handle;cs+class://OpenTK/Graphics/VboTextHandle/ToString
+True;FieldAccess;cs+class://OpenTK/Graphics/TextureRegion2D[1];cs+class://OpenTK/Graphics/TextureRegion2D;Rectangle;cs+class://OpenTK/Graphics/TextureRegion2D[1]/(field initializer)
+True;MethodCall;cs+class://OpenTK/Graphics/Text/PoolableTextExtents;cs+class://OpenTK/Graphics/TextExtents;Clear;cs+class://OpenTK/Graphics/Text/PoolableTextExtents/OnAcquire
+True;MethodCall;cs+class://Tao/Platform/Windows/SimpleOpenGlControl;cs+class://OpenTK/GLControl;MakeCurrent;cs+class://Tao/Platform/Windows/SimpleOpenGlControl/OnPaint
+True;MethodCall;cs+class://Tao/Platform/Windows/SimpleOpenGlControl;cs+class://OpenTK/GLControl;OnPaint;cs+class://Tao/Platform/Windows/SimpleOpenGlControl/OnPaint
+True;MethodCall;cs+class://Tao/Platform/Windows/SimpleOpenGlControl;cs+class://OpenTK/GLControl;SwapBuffers;cs+class://Tao/Platform/Windows/SimpleOpenGlControl/OnPaint
+True;MethodCall;cs+class://Tao/Platform/Windows/SimpleOpenGlControl;cs+class://OpenTK/GLControl;CreateParams;cs+class://Tao/Platform/Windows/SimpleOpenGlControl/(field initializer)
+True;MethodCall;cs+class://Tao/Platform/Windows/SimpleOpenGlControl;cs+class://OpenTK/GLControl;Dispose;cs+class://Tao/Platform/Windows/SimpleOpenGlControl/Dispose
+True;MethodCall;cs+class://OpenTK/Audio/WaveReader;cs+class://OpenTK/Audio/AudioReader;Stream;cs+class://OpenTK/Audio/WaveReader/(field initializer)
+True;MethodCall;cs+class://OpenTK/Audio/WaveReader;cs+class://OpenTK/Audio/AudioReader;Stream;cs+class://OpenTK/Audio/WaveReader/(field initializer)
+True;FieldAccess;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/Anaglyph/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/Anaglyph/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/Anaglyph/OnUnload
+True;MethodCall;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/Anaglyph/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tutorial/Anaglyph/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/Anaglyph/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/Anaglyph/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/Anaglyph/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/Anaglyph;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/Anaglyph/Main
+True;FieldAccess;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/GLDiagnostics/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;Context;cs+class://Examples/Tutorial/GLDiagnostics/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/GLDiagnostics/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/GLDiagnostics/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/GLDiagnostics/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tutorial/GLDiagnostics/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/GLDiagnostics/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/GLDiagnostics/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;OnRenderFrame;cs+class://Examples/Tutorial/GLDiagnostics/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/GLDiagnostics;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/GLDiagnostics/Main
+False;FieldAccess;cs+class://Examples/Tutorial/TextRendering;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/TextRendering/OnLoad
+False;FieldAccess;cs+class://Examples/Tutorial/TextRendering;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/TextRendering/OnLoad
+False;FieldAccess;cs+class://Examples/Tutorial/TextRendering;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tutorial/TextRendering/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/TextRendering;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/TextRendering/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/TextRendering;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/TextRendering/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/TextRendering;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/TextRendering/Main
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;KeyDown;cs+class://Examples/Tutorial/MouseCursorSimple/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tutorial/MouseCursorSimple/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;MouseMove;cs+class://Examples/Tutorial/MouseCursorSimple/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;MouseDown;cs+class://Examples/Tutorial/MouseCursorSimple/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/MouseCursorSimple/AddLine
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/MouseCursorSimple/AddLine
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/MouseCursorSimple/AddLine
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/MouseCursorSimple/AddLine
+True;MethodCall;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;CursorVisible;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;CursorVisible;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tutorial/MouseCursorSimple/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/MouseCursorSimple/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/MouseCursorSimple/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/MouseCursorSimple/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/MouseCursorSimple;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/MouseCursorSimple/Main
+True;FieldAccess;cs+class://Examples/Tutorial/TestShaderUtf8Support;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/TestShaderUtf8Support/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/TestShaderUtf8Support;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/TestShaderUtf8Support/OnUpdateFrame
+False;FieldAccess;cs+class://Examples/Tutorial/TestShaderUtf8Support;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/TestShaderUtf8Support/OnRenderFrame
+False;FieldAccess;cs+class://Examples/Tutorial/TestShaderUtf8Support;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/TestShaderUtf8Support/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/TestShaderUtf8Support;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/TestShaderUtf8Support/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/TestShaderUtf8Support;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/TestShaderUtf8Support/Main
+True;FieldAccess;cs+class://Examples/ExampleBrowser;cs+class://System/Windows/Forms/Form;Icon;cs+class://Examples/ExampleBrowser/(field initializer)
+True;MethodCall;cs+class://Examples/ExampleBrowser;cs+class://System/Windows/Forms/Form;OnLoad;cs+class://Examples/ExampleBrowser/OnLoad
+True;MethodCall;cs+class://Examples/ExampleBrowser;cs+class://System/Windows/Forms/Form;Dispose;cs+class://Examples/ExampleBrowser/Dispose
+True;MethodCall;cs+class://Examples/ExampleBrowser;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/ExampleBrowser/InitializeComponent
+True;MethodCall;cs+class://Examples/ExampleBrowser;cs+class://System/Windows/Forms/Form;StartPosition;cs+class://Examples/ExampleBrowser/InitializeComponent
+True;MethodCall;cs+class://Examples/ExampleBrowser;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/ExampleBrowser/InitializeComponent
+False;FieldAccess;cs+class://Examples/Tutorial/T07_Display_Lists_Flower;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tutorial/T07_Display_Lists_Flower/OnResize
+False;MethodCall;cs+class://Examples/Tutorial/T07_Display_Lists_Flower;cs+class://OpenTK/GameWindow;ClientSize;cs+class://Examples/Tutorial/T07_Display_Lists_Flower/OnResize
+False;MethodCall;cs+class://Examples/Tutorial/T07_Display_Lists_Flower;cs+class://OpenTK/GameWindow;ClientSize;cs+class://Examples/Tutorial/T07_Display_Lists_Flower/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T07_Display_Lists_Flower;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T07_Display_Lists_Flower/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T07_Display_Lists_Flower;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T07_Display_Lists_Flower/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T07_Display_Lists_Flower;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T07_Display_Lists_Flower/Main
+True;MethodCall;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/StencilCSG/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;KeyDown;cs+class://Examples/Tutorial/StencilCSG/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/StencilCSG/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/StencilCSG/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/StencilCSG/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/StencilCSG/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/StencilCSG/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/StencilCSG/OnUnload
+False;MethodCall;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/StencilCSG/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/StencilCSG/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/StencilCSG;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/StencilCSG/Main
+False;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;KeyUp;cs+class://Examples/Tutorial/T02_Vertex_Arrays/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T02_Vertex_Arrays/Keyboard_KeyUp
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T02_Vertex_Arrays/Keyboard_KeyUp
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T02_Vertex_Arrays/Keyboard_KeyUp
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T02_Vertex_Arrays/Keyboard_KeyUp
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T02_Vertex_Arrays/Keyboard_KeyUp
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;TargetRenderFrequency;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;TargetRenderFrequency;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;TargetUpdateFrequency;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;TargetUpdateFrequency;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T02_Vertex_Arrays/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T02_Vertex_Arrays;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T02_Vertex_Arrays/Launch
+True;MethodCall;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T04_Vertex_Lighting/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T04_Vertex_Lighting;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T04_Vertex_Lighting/Main
+False;FieldAccess;cs+class://Examples/Tutorial/Textures;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/Textures/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/Textures;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/Textures/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/Textures;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/Textures/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/Textures;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/Textures/OnRenderFrame
+False;MethodCall;cs+class://Examples/Tutorial/Textures;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/Textures/Main
+True;MethodCall;cs+class://Examples/Tutorial/Textures;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/Textures/Main
+True;MethodCall;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T09_VBO_Dynamic/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnLoad
+False;FieldAccess;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnUpdateFrame
+False;MethodCall;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T09_VBO_Dynamic/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T09_VBO_Dynamic;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T09_VBO_Dynamic/Main
+True;MethodCall;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/SimpleFBO/OnLoad
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/SimpleFBO/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/SimpleFBO/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/SimpleFBO/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/SimpleFBO/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/SimpleFBO/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/SimpleFBO/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/SimpleFBO/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/SimpleFBO/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleFBO;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/SimpleFBO/Main
+True;MethodCall;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;OnRenderFrame;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T03_Immediate_Mode_Cube/Main
+True;MethodCall;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/T08_VBO/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/T08_VBO/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T08_VBO/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T08_VBO/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T08_VBO/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T08_VBO/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/T08_VBO/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T08_VBO/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;OnRenderFrame;cs+class://Examples/Tutorial/T08_VBO/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T08_VBO/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T08_VBO;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T08_VBO/Main
+True;FieldAccess;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/TextureMatrix/(field initializer)
+False;MethodCall;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tutorial/TextureMatrix/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/TextureMatrix/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/TextureMatrix/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/TextureMatrix/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/TextureMatrix/OnRenderFrame
+False;MethodCall;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/TextureMatrix/Main
+True;MethodCall;cs+class://Examples/Tutorial/TextureMatrix;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/TextureMatrix/Main
+True;FieldAccess;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/Picking/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;MouseMove;cs+class://Examples/Tutorial/Picking/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/Picking/OnUnload
+False;FieldAccess;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tutorial/Picking/OnResize
+False;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/Picking/OnResize
+False;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/Picking/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/Picking/OnUpdateFrame
+False;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/Picking/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/Picking/OnRenderFrame
+False;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/Picking/Main
+True;MethodCall;cs+class://Examples/Tutorial/Picking;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/Picking/Main
+True;MethodCall;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnLoad
+False;FieldAccess;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T10_GLSL_Cube/OnRenderFrame
+False;MethodCall;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/T10_GLSL_Cube/Main
+True;MethodCall;cs+class://Examples/Tutorial/T10_GLSL_Cube;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T10_GLSL_Cube/Main
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/SimpleGeometryShader/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/SimpleGeometryShader/OnUnload
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tutorial/SimpleGeometryShader/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/SimpleGeometryShader/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/SimpleGeometryShader/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/SimpleGeometryShader/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/SimpleGeometryShader/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/SimpleGeometryShader/Main
+True;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnUnload
+False;FieldAccess;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnUpdateFrame
+False;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T13_GLSL_Earth/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T13_GLSL_Earth;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T13_GLSL_Earth/Main
+True;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnUnload
+False;FieldAccess;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnResize
+False;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;OnKeyDown;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnKeyDown
+True;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnKeyDown
+False;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;OnMouseMove;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnMouseMove
+False;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnMouseMove
+False;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnMouseMove
+True;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnUpdateFrame
+False;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/T12_GLSL_Parallax/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/T12_GLSL_Parallax;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/T12_GLSL_Parallax/Main
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;KeyDown;cs+class://Examples/Tutorial/SimpleGeometryShader2/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/SimpleGeometryShader2/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/SimpleGeometryShader2/setPerspective
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/SimpleGeometryShader2/setPerspective
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/SimpleGeometryShader2/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/SimpleGeometryShader2/OnUnload
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/SimpleGeometryShader2/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/SimpleGeometryShader2/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tutorial/SimpleGeometryShader2/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/SimpleGeometryShader2/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/SimpleGeometryShader2/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleGeometryShader2;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/SimpleGeometryShader2/Main
+True;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/JuliaSetFractal/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/JuliaSetFractal/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/JuliaSetFractal/OnLoad
+False;FieldAccess;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;KeyUp;cs+class://Examples/Tutorial/JuliaSetFractal/OnLoad
+False;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/JuliaSetFractal/Keyboard_KeyUp
+False;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/JuliaSetFractal/Keyboard_KeyUp
+False;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/JuliaSetFractal/Keyboard_KeyUp
+False;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/JuliaSetFractal/Keyboard_KeyUp
+False;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/JuliaSetFractal/Keyboard_KeyUp
+False;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/JuliaSetFractal/Keyboard_KeyUp
+False;FieldAccess;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/JuliaSetFractal/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/JuliaSetFractal/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/JuliaSetFractal/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/JuliaSetFractal/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;OnUpdateFrame;cs+class://Examples/Tutorial/JuliaSetFractal/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/JuliaSetFractal/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/JuliaSetFractal/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/JuliaSetFractal;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/JuliaSetFractal/Main
+True;FieldAccess;cs+class://Examples/Tutorial/HelloGL3;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/HelloGL3/OnLoad
+True;MethodCall;cs+class://Examples/Tutorial/HelloGL3;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/HelloGL3/OnUpdateFrame
+False;FieldAccess;cs+class://Examples/Tutorial/HelloGL3;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/HelloGL3/OnRenderFrame
+False;FieldAccess;cs+class://Examples/Tutorial/HelloGL3;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/HelloGL3/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/HelloGL3;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/HelloGL3/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/HelloGL3;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/HelloGL3/Main
+True;MethodCall;cs+class://Examples/Tutorial/SimpleES20Window;cs+class://OpenTK/GameWindow;OnLoad;cs+class://Examples/Tutorial/SimpleES20Window/OnLoad
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleES20Window;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/SimpleES20Window/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleES20Window;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/SimpleES20Window/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleES20Window;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/SimpleES20Window/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleES20Window;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/SimpleES20Window/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleES20Window;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/SimpleES20Window/Main
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/Parrot/(field initializer)
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;ShowDialog;cs+class://Examples/Parrot/Main
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;Dispose;cs+class://Examples/Parrot/Dispose
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/Parrot/InitializeComponent
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;FormBorderStyle;cs+class://Examples/Parrot/InitializeComponent
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;MaximizeBox;cs+class://Examples/Parrot/InitializeComponent
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;StartPosition;cs+class://Examples/Parrot/InitializeComponent
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/Parrot/InitializeComponent
+True;MethodCall;cs+class://Examples/Parrot;cs+class://System/Windows/Forms/Form;FormClosing;cs+class://Examples/Parrot/InitializeComponent
+True;FieldAccess;cs+class://Examples/Shapes/MengerSponge;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/MengerSponge/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/MengerSponge;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/MengerSponge/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/MengerSponge;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/MengerSponge/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/MengerSponge;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/MengerSponge/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/MengerSponge;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/MengerSponge/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/TorusKnot;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/TorusKnot/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/TorusKnot;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/TorusKnot/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/TorusKnot;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/TorusKnot/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/TorusKnot;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/TorusKnot/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/TorusKnot;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/TorusKnot/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/TorusKnot;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/TorusKnot/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/TorusKnot;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/TorusKnot/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/KochTetrahedron;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/KochTetrahedron/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/KochTetrahedron;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/KochTetrahedron/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/KochTetrahedron;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/KochTetrahedron/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;GetArraysforVBO;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;Dispose;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;GetArraysforVBO;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;Dispose;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;GetArraysforVBO;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;Dispose;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Capsule;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/Capsule/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/ChamferCube;cs+class://Examples/Shapes/DrawableShape;GetArraysforVBO;cs+class://Examples/Shapes/ChamferCube/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/ChamferCube;cs+class://Examples/Shapes/DrawableShape;Dispose;cs+class://Examples/Shapes/ChamferCube/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/ChamferCube;cs+class://Examples/Shapes/DrawableShape;GetArraysforVBO;cs+class://Examples/Shapes/ChamferCube/(field initializer)
+True;MethodCall;cs+class://Examples/Shapes/ChamferCube;cs+class://Examples/Shapes/DrawableShape;Dispose;cs+class://Examples/Shapes/ChamferCube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/ChamferCube;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/ChamferCube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/ChamferCube;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/ChamferCube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/ChamferCube;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/ChamferCube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedHose;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedHose/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SlicedSphere;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SlicedSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Vertices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Normals;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Texcoords;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Normals;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Vertices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/IsoSphere;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/IsoSphere/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SierpinskiTetrahedron;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/SierpinskiTetrahedron/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SierpinskiTetrahedron;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/SierpinskiTetrahedron/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/SierpinskiTetrahedron;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/SierpinskiTetrahedron/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Vertices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Normals;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Texcoords;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Plane;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Plane/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Cube;cs+class://Examples/Shapes/Shape;Vertices;cs+class://Examples/Shapes/Cube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Cube;cs+class://Examples/Shapes/Shape;Indices;cs+class://Examples/Shapes/Cube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Cube;cs+class://Examples/Shapes/Shape;Normals;cs+class://Examples/Shapes/Cube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/Cube;cs+class://Examples/Shapes/Shape;Colors;cs+class://Examples/Shapes/Cube/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/VboShape;cs+class://Examples/Shapes/DrawableShape;PrimitiveMode;cs+class://Examples/Shapes/VboShape/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/VboShape;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/VboShape/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/VboShape;cs+class://Examples/Shapes/DrawableShape;VertexArray;cs+class://Examples/Shapes/VboShape/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/VboShape;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/VboShape/(field initializer)
+True;FieldAccess;cs+class://Examples/Shapes/VboShape;cs+class://Examples/Shapes/DrawableShape;IndexArray;cs+class://Examples/Shapes/VboShape/(field initializer)
+False;FieldAccess;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;KeyDown;cs+class://Examples/FullscreenAntialias/(field initializer)
+True;MethodCall;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/FullscreenAntialias/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/FullscreenAntialias/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/FullscreenAntialias/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/FullscreenAntialias/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/FullscreenAntialias/OnResize
+False;FieldAccess;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/FullscreenAntialias/OnResize
+True;MethodCall;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/FullscreenAntialias/OnResize
+True;MethodCall;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/FullscreenAntialias/OnRenderFrame
+True;MethodCall;cs+class://Examples/FullscreenAntialias;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/FullscreenAntialias/Main
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;KeyDown;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;KeyUp;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Resize;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Move;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;X;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Y;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;X;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Y;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;X;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+False;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Y;cs+class://Examples/Tutorial/ThreadedRendering/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;OnUnload;cs+class://Examples/Tutorial/ThreadedRendering/OnUnload
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;MakeCurrent;cs+class://Examples/Tutorial/ThreadedRendering/RenderLoop
+True;FieldAccess;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tutorial/ThreadedRendering/RenderLoop
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/ThreadedRendering/RenderLoop
+True;MethodCall;cs+class://Examples/Tutorial/ThreadedRendering;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/ThreadedRendering/Main
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;KeyDown;cs+class://Examples/Tutorial/SimpleWindow/(field initializer)
+True;MethodCall;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tutorial/SimpleWindow/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/SimpleWindow/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/SimpleWindow/Keyboard_KeyDown
+True;MethodCall;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tutorial/SimpleWindow/Keyboard_KeyDown
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tutorial/SimpleWindow/OnResize
+False;FieldAccess;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tutorial/SimpleWindow/OnResize
+True;MethodCall;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tutorial/SimpleWindow/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tutorial/SimpleWindow;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tutorial/SimpleWindow/Main
+True;MethodCall;cs+class://Examples/WinForms/FontRenderingBasic;cs+class://System/Windows/Forms/Form;ShowDialog;cs+class://Examples/WinForms/FontRenderingBasic/Main
+True;MethodCall;cs+class://Examples/WinForms/FontRenderingBasic;cs+class://System/Windows/Forms/Form;Dispose;cs+class://Examples/WinForms/FontRenderingBasic/Dispose
+True;MethodCall;cs+class://Examples/WinForms/FontRenderingBasic;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/FontRenderingBasic/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/FontRenderingBasic;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/WinForms/FontRenderingBasic/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/SimpleForm;cs+class://System/Windows/Forms/Form;OnLoad;cs+class://Examples/WinForms/SimpleForm/OnLoad
+True;MethodCall;cs+class://Examples/WinForms/SimpleForm;cs+class://System/Windows/Forms/Form;Close;cs+class://Examples/WinForms/SimpleForm/glControl1_KeyDown
+True;MethodCall;cs+class://Examples/WinForms/SimpleForm;cs+class://System/Windows/Forms/Form;ShowDialog;cs+class://Examples/WinForms/SimpleForm/Main
+True;MethodCall;cs+class://Examples/WinForms/SimpleForm;cs+class://System/Windows/Forms/Form;Dispose;cs+class://Examples/WinForms/SimpleForm/Dispose
+True;MethodCall;cs+class://Examples/WinForms/SimpleForm;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/SimpleForm/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/SimpleForm;cs+class://System/Windows/Forms/Form;Margin;cs+class://Examples/WinForms/SimpleForm/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/SimpleForm;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/WinForms/SimpleForm/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/DerivedGLControl;cs+class://OpenTK/GLControl;MakeCurrent;cs+class://Examples/WinForms/DerivedGLControl/(field initializer)
+True;MethodCall;cs+class://Examples/WinForms/DerivedGLControl;cs+class://OpenTK/GLControl;OnPaint;cs+class://Examples/WinForms/DerivedGLControl/OnPaint
+True;MethodCall;cs+class://Examples/WinForms/DerivedGLControl;cs+class://OpenTK/GLControl;MakeCurrent;cs+class://Examples/WinForms/DerivedGLControl/OnPaint
+True;MethodCall;cs+class://Examples/WinForms/DerivedGLControl;cs+class://OpenTK/GLControl;SwapBuffers;cs+class://Examples/WinForms/DerivedGLControl/OnPaint
+True;MethodCall;cs+class://Examples/WinForms/DerivedGLControl;cs+class://OpenTK/GLControl;Dispose;cs+class://Examples/WinForms/DerivedGLControl/Dispose
+True;MethodCall;cs+class://Examples/WinForms/MultipleGLControlsForm;cs+class://System/Windows/Forms/Form;ShowDialog;cs+class://Examples/WinForms/MultipleGLControlsForm/Main
+True;MethodCall;cs+class://Examples/WinForms/MultipleGLControlsForm;cs+class://System/Windows/Forms/Form;Dispose;cs+class://Examples/WinForms/MultipleGLControlsForm/Dispose
+True;MethodCall;cs+class://Examples/WinForms/MultipleGLControlsForm;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/MultipleGLControlsForm/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/MultipleGLControlsForm;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/WinForms/MultipleGLControlsForm/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;OnLoad;cs+class://Examples/WinForms/GameLoopForm/OnLoad
+True;FieldAccess;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/WinForms/GameLoopForm/OnLoad
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;OnClosing;cs+class://Examples/WinForms/GameLoopForm/OnClosing
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;Close;cs+class://Examples/WinForms/GameLoopForm/glControl_KeyDown
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/GameLoopForm/GrabScreenshot
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/GameLoopForm/GrabScreenshot
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/GameLoopForm/GrabScreenshot
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/GameLoopForm/GrabScreenshot
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/WinForms/GameLoopForm/Main
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;ShowDialog;cs+class://Examples/WinForms/GameLoopForm/Main
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;Dispose;cs+class://Examples/WinForms/GameLoopForm/Dispose
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/GameLoopForm/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/GameLoopForm;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/WinForms/GameLoopForm/InitializeComponent
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;KeyDown;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;KeyUp;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;KeyPress;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;MouseEnter;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;MouseLeave;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;MouseMove;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;MouseWheel;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;MouseDown;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;MouseUp;cs+class://Examples/Tests/GameWindowStates/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;CursorVisible;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;CursorVisible;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;MethodCall;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowBorder;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowBorder;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowBorder;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;X;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;X;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;X;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;X;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Y;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Y;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Y;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Y;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Size;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Size;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetUpdateFrequency;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetUpdateFrequency;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetRenderFrequency;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetRenderFrequency;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;CursorVisible;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;CursorVisible;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;MethodCall;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;PointToScreen;cs+class://Examples/Tests/GameWindowStates/KeyDownHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tests/GameWindowStates/MouseDeviceButtonHandler
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Cursor;cs+class://Examples/Tests/GameWindowStates/MouseDeviceButtonHandler
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Keyboard;cs+class://Examples/Tests/GameWindowStates/DrawKeyboardDevice
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Mouse;cs+class://Examples/Tests/GameWindowStates/DrawMouseDevice
+True;MethodCall;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+False;MethodCall;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;WindowBorder;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;VSync;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Bounds;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;CursorVisible;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Focused;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;UpdateFrequency;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetUpdateFrequency;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;RenderFrequency;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetRenderFrequency;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;UpdatePeriod;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetUpdatePeriod;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;RenderPeriod;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetRenderPeriod;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;UpdateTime;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;RenderTime;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Joysticks;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;TargetUpdatePeriod;cs+class://Examples/Tests/GameWindowStates/OnUpdateFrame
+True;MethodCall;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;OnResize;cs+class://Examples/Tests/GameWindowStates/OnResize
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tests/GameWindowStates/OnRenderFrame
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tests/GameWindowStates/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tests/GameWindowStates/OnRenderFrame
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tests/GameWindowStates/DrawText
+False;FieldAccess;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tests/GameWindowStates/DrawText
+True;MethodCall;cs+class://Examples/Tests/GameWindowStates;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tests/GameWindowStates/Main
+True;MethodCall;cs+class://Examples/WinForms/Extensions;cs+class://System/Windows/Forms/Form;Size;cs+class://Examples/WinForms/Extensions/backgroundWorker1_RunWorkerCompleted
+True;MethodCall;cs+class://Examples/WinForms/Extensions;cs+class://System/Windows/Forms/Form;ShowDialog;cs+class://Examples/WinForms/Extensions/Main
+True;MethodCall;cs+class://Examples/WinForms/Extensions;cs+class://System/Windows/Forms/Form;Dispose;cs+class://Examples/WinForms/Extensions/Dispose
+True;MethodCall;cs+class://Examples/WinForms/Extensions;cs+class://System/Windows/Forms/Form;ClientSize;cs+class://Examples/WinForms/Extensions/InitializeComponent
+True;MethodCall;cs+class://Examples/WinForms/Extensions;cs+class://System/Windows/Forms/Form;Text;cs+class://Examples/WinForms/Extensions/InitializeComponent
+False;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;MouseMove;cs+class://Examples/Tests/BasicMouseInput/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tests/BasicMouseInput/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;Width;cs+class://Examples/Tests/BasicMouseInput/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tests/BasicMouseInput/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;Height;cs+class://Examples/Tests/BasicMouseInput/(field initializer)
+False;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;MouseUp;cs+class://Examples/Tests/BasicMouseInput/OnLoad
+True;MethodCall;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;Exit;cs+class://Examples/Tests/BasicMouseInput/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/BasicMouseInput/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/BasicMouseInput/OnUpdateFrame
+True;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;WindowState;cs+class://Examples/Tests/BasicMouseInput/OnUpdateFrame
+False;FieldAccess;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;ClientRectangle;cs+class://Examples/Tests/BasicMouseInput/OnRenderFrame
+True;MethodCall;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;SwapBuffers;cs+class://Examples/Tests/BasicMouseInput/OnRenderFrame
+False;MethodCall;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;Title;cs+class://Examples/Tests/BasicMouseInput/Main
+True;MethodCall;cs+class://Examples/Tests/BasicMouseInput;cs+class://OpenTK/GameWindow;Run;cs+class://Examples/Tests/BasicMouseInput/Main
+True;MethodCall;cs+class://OpenTK/GLControl;cs+class://System/Windows/Forms/UserControl;CreateParams;cs+class://OpenTK/GLControl/(field initializer)
+True;MethodCall;cs+class://OpenTK/GLControl;cs+class://System/Windows/Forms/UserControl;OnResize;cs+class://OpenTK/GLControl/OnResize
+True;FieldAccess;cs+class://Bind/GL2/GL4Generator;cs+class://Bind/GL2/Generator;Profile;cs+class://Bind/GL2/GL4Generator/(field initializer)
+False;FieldAccess;cs+class://Bind/CL/CLGenerator;cs+class://Bind/ES/ESGenerator;glTypemap;cs+class://Bind/CL/CLGenerator/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Name;cs+class://Bind/Structures/Function/(field initializer)
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Name;cs+class://Bind/Structures/Function/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Parameters;cs+class://Bind/Structures/Function/(field initializer)
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Parameters;cs+class://Bind/Structures/Function/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;ReturnType;cs+class://Bind/Structures/Function/(field initializer)
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;ReturnType;cs+class://Bind/Structures/Function/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Obsolete;cs+class://Bind/Structures/Function/(field initializer)
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Obsolete;cs+class://Bind/Structures/Function/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;CLSCompliant;cs+class://Bind/Structures/Function/(field initializer)
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;CLSCompliant;cs+class://Bind/Structures/Function/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Parameters;cs+class://Bind/Structures/Function/TurnVoidPointersToIntPtr
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Unsafe;cs+class://Bind/Structures/Function/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;ReturnType;cs+class://Bind/Structures/Function/ToString
+True;FieldAccess;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Parameters;cs+class://Bind/Structures/Function/ToString
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Parameters;cs+class://Bind/Structures/Function/Equals
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Name;cs+class://Bind/Structures/Function/CompareTo
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;Parameters;cs+class://Bind/Structures/Function/CompareTo
+True;MethodCall;cs+class://Bind/Structures/Function;cs+class://Bind/Structures/Delegate;ReturnType;cs+class://Bind/Structures/Function/CompareTo
+True;MethodCall;cs+class://Bind/Structures/FunctionBody;cs+class://System/Collections/Generic/List[1];Add;cs+class://Bind/Structures/FunctionBody/Add
+True;FieldAccess;cs+class://Bind/Structures/FunctionBody;cs+class://System/Collections/Generic/List[1];Count;cs+class://Bind/Structures/FunctionBody/ToString
+True;FieldAccess;cs+class://Bind/Structures/FunctionBody;cs+class://System/Collections/Generic/List[1];Count;cs+class://Bind/Structures/FunctionBody/ToString
+True;MethodCall;cs+class://Bind/Structures/FunctionCollection;cs+class://System/Collections/Generic/SortedDictionary[2];ContainsKey;cs+class://Bind/Structures/FunctionCollection/Add
+True;MethodCall;cs+class://Bind/Structures/FunctionCollection;cs+class://System/Collections/Generic/SortedDictionary[2];Add;cs+class://Bind/Structures/FunctionCollection/Add
+True;MethodCall;cs+class://Bind/Structures/FunctionCollection;cs+class://System/Collections/Generic/SortedDictionary[2];ContainsKey;cs+class://Bind/Structures/FunctionCollection/AddChecked
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Pointer;cs+class://Bind/Structures/Parameter/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Array;cs+class://Bind/Structures/Parameter/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Reference;cs+class://Bind/Structures/Parameter/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;CurrentType;cs+class://Bind/Structures/Parameter/(field initializer)
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;CurrentType;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;CurrentType;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Reference;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Reference;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Array;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Pointer;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Reference;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Reference;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Array;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Pointer;cs+class://Bind/Structures/Parameter/DiffersOnlyOnReference
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;CompareTo;cs+class://Bind/Structures/Parameter/CompareTo
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;ToString;cs+class://Bind/Structures/Parameter/ToString
+True;FieldAccess;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Reference;cs+class://Bind/Structures/Parameter/ToString
+True;MethodCall;cs+class://Bind/Structures/Parameter;cs+class://Bind/Structures/Type;Equals;cs+class://Bind/Structures/Parameter/Equals
+True;FieldAccess;cs+class://Bind/ES/ESGenerator;cs+class://Bind/GL2/Generator;Profile;cs+class://Bind/ES/ESGenerator/(field initializer)
+True;FieldAccess;cs+class://Bind/ES/ES2Generator;cs+class://Bind/GL2/Generator;Profile;cs+class://Bind/ES/ES2Generator/(field initializer)
+True;FieldAccess;cs+class://Bind/ES/ES2Generator;cs+class://Bind/GL2/Generator;Version;cs+class://Bind/ES/ES2Generator/(field initializer)
+True;FieldAccess;cs+class://Bind/ES/ES3Generator;cs+class://Bind/GL2/Generator;Profile;cs+class://Bind/ES/ES3Generator/(field initializer)
+True;FieldAccess;cs+class://Bind/ES/ES3Generator;cs+class://Bind/GL2/Generator;Version;cs+class://Bind/ES/ES3Generator/(field initializer)
+True;MethodCall;cs+class://Mono/Options/OptionException;cs+class://System/Exception;GetObjectData;cs+class://Mono/Options/OptionException/GetObjectData
+True;MethodCall;cs+class://Mono/Options/OptionSet;cs+class://System/Collections/ObjectModel/KeyedCollection[2];InsertItem;cs+class://Mono/Options/OptionSet/InsertItem
+True;MethodCall;cs+class://Mono/Options/OptionSet;cs+class://System/Collections/ObjectModel/KeyedCollection[2];RemoveItem;cs+class://Mono/Options/OptionSet/RemoveItem
+True;MethodCall;cs+class://Mono/Options/OptionSet;cs+class://System/Collections/ObjectModel/KeyedCollection[2];SetItem;cs+class://Mono/Options/OptionSet/SetItem
+True;MethodCall;cs+class://Mono/Options/OptionSet;cs+class://System/Collections/ObjectModel/KeyedCollection[2];Contains;cs+class://Mono/Options/OptionSet/Parse
+True;MethodCall;cs+class://Mono/Options/OptionSet;cs+class://System/Collections/ObjectModel/KeyedCollection[2];Contains;cs+class://Mono/Options/OptionSet/Parse
+True;MethodCall;cs+class://Mono/Options/OptionSet;cs+class://System/Collections/ObjectModel/KeyedCollection[2];Contains;cs+class://Mono/Options/OptionSet/ParseBool
+True;MethodCall;cs+class://Mono/Options/OptionSet;cs+class://System/Collections/ObjectModel/KeyedCollection[2];Contains;cs+class://Mono/Options/OptionSet/ParseBundledValue
+True;MethodCall;cs+class://Mono/Options/OptionSet/ActionOption[1];cs+class://Mono/Options/Option;Parse;cs+class://Mono/Options/OptionSet/ActionOption[1]/OnParseComplete
+True;MethodCall;cs+class://Mono/Options/OptionSet/ActionOption[2];cs+class://Mono/Options/Option;Parse;cs+class://Mono/Options/OptionSet/ActionOption[2]/OnParseComplete
+True;MethodCall;cs+class://Mono/Options/OptionSet/ActionOption[2];cs+class://Mono/Options/Option;Parse;cs+class://Mono/Options/OptionSet/ActionOption[2]/OnParseComplete
+True;FieldAccess;cs+class://CHeaderToXML/ESCLParser;cs+class://CHeaderToXML/Parser;Version;cs+class://CHeaderToXML/ESCLParser/Parse
+True;FieldAccess;cs+class://CHeaderToXML/GLXmlParser;cs+class://CHeaderToXML/Parser;Prefix;cs+class://CHeaderToXML/GLXmlParser/(field initializer)

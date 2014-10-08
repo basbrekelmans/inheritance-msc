@@ -1,0 +1,198 @@
+fromType;toType;fromMethod;toMethod;calledFrom
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005AutoHideStrip;cs+class://WeifenLuo/WinFormsUI/Docking/AutoHideStripBase;Int32 MeasureHeight();Int32 MeasureHeight();(field initializer)
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005AutoHideStrip;cs+class://WeifenLuo/WinFormsUI/Docking/AutoHideStripBase;Int32 MeasureHeight();Int32 MeasureHeight();(field initializer)
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005AutoHideStrip;cs+class://WeifenLuo/WinFormsUI/Docking/AutoHideStripBase;Int32 MeasureHeight();Int32 MeasureHeight();(field initializer)
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005AutoHideStrip;cs+class://WeifenLuo/WinFormsUI/Docking/AutoHideStripBase;Int32 MeasureHeight();Int32 MeasureHeight();(field initializer)
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005AutoHideStrip;cs+class://WeifenLuo/WinFormsUI/Docking/AutoHideStripBase;Int32 MeasureHeight();Int32 MeasureHeight();GetTabStripRectangle
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005AutoHideStrip;cs+class://WeifenLuo/WinFormsUI/Docking/AutoHideStripBase;Void OnRefreshChanges();Void OnRefreshChanges();RefreshChanges
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005AutoHideStrip;cs+class://WeifenLuo/WinFormsUI/Docking/AutoHideStripBase;IDockContent HitTest(Point);IDockContent HitTest(Point);HitTest
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005DockPaneCaption;cs+class://WeifenLuo/WinFormsUI/Docking/DockPaneCaptionBase;Void OnRefreshChanges();Void OnRefreshChanges();RefreshChanges
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005DockPaneCaption/InertButton;cs+class://WeifenLuo/WinFormsUI/Docking/InertButtonBase;Void OnRefreshChanges();Void OnRefreshChanges();RefreshChanges
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005DockPaneStrip;cs+class://WeifenLuo/WinFormsUI/Docking/DockPaneStripBase;Void OnRefreshChanges();Void OnRefreshChanges();RefreshChanges
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005DockPaneStrip;cs+class://WeifenLuo/WinFormsUI/Docking/DockPaneStripBase;Int32 HitTest(Point);Int32 HitTest(Point);HitTest
+cs+class://WeifenLuo/WinFormsUI/Docking/VS2005DockPaneStrip/InertButton;cs+class://WeifenLuo/WinFormsUI/Docking/InertButtonBase;Void OnRefreshChanges();Void OnRefreshChanges();RefreshChanges
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/AutoHideWindowControl/SplitterControl;cs+class://WeifenLuo/WinFormsUI/Docking/SplitterBase;Void StartDrag();Void StartDrag();OnMouseDown
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DockDragHandler;cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandler;Void OnEndDrag(Boolean);Void OnEndDrag(Boolean);EndDrag
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DockDragHandler;cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandler;Void OnDragging();Void OnDragging();PreFilterMessage
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DockDragHandler;cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandler;Void OnDragging();Void OnDragging();OnPreFilterMessage
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DockDragHandler/DockOutline;cs+class://WeifenLuo/WinFormsUI/Docking/DockOutlineBase;Void OnShow();Void OnShow();TestChange
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DockDragHandler/DockOutline;cs+class://WeifenLuo/WinFormsUI/Docking/DockOutlineBase;Void OnClose();Void OnClose();Close
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandler;cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandlerBase;Boolean OnPreFilterMessage(UnknownType);Boolean OnPreFilterMessage(UnknownType);PreFilterMessage
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/SplitterDragHandler;cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandler;Void OnEndDrag(Boolean);Void OnEndDrag(Boolean);EndDrag
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/SplitterDragHandler;cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandler;Void OnDragging();Void OnDragging();PreFilterMessage
+cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/SplitterDragHandler;cs+class://WeifenLuo/WinFormsUI/Docking/DockPanel/DragHandler;Void OnDragging();Void OnDragging();OnPreFilterMessage
+cs+class://WeifenLuo/WinFormsUI/Docking/DockWindow/SplitterControl;cs+class://WeifenLuo/WinFormsUI/Docking/SplitterBase;Void StartDrag();Void StartDrag();OnMouseDown
+cs+class://ScintillaNet/Configuration/Scintilla;cs+class://ScintillaNet/Configuration/ConfigFile;Void init(ConfigurationUtility, ConfigFile);Void init(ConfigurationUtility, ConfigFile);init
+cs+class://ICSharpCode/SharpZipLib/GZip/GZipInputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/InflaterInputStream;Int32 Read(UnknownType, Int32, Int32);Int32 Read(UnknownType, Int32, Int32);Skip
+cs+class://ICSharpCode/SharpZipLib/GZip/GZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Write(UnknownType, Int32, Int32);Void Write(UnknownType, Int32, Int32);Finish
+cs+class://ICSharpCode/SharpZipLib/GZip/GZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Write(UnknownType, Int32, Int32);Void Write(UnknownType, Int32, Int32);Deflate
+cs+class://ICSharpCode/SharpZipLib/GZip/GZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Finish();Void Finish();Close
+cs+class://ICSharpCode/SharpZipLib/GZip/GZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Close();Void Close();Close
+cs+class://ICSharpCode/SharpZipLib/GZip/GZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Write(UnknownType, Int32, Int32);Void Write(UnknownType, Int32, Int32);WriteByte
+cs+class://ICSharpCode/SharpZipLib/Zip/ZipInputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/InflaterInputStream;Int32 Read(UnknownType, Int32, Int32);Int32 Read(UnknownType, Int32, Int32);Skip
+cs+class://ICSharpCode/SharpZipLib/Zip/ZipInputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/InflaterInputStream;Void Close();Void Close();Close
+cs+class://ICSharpCode/SharpZipLib/Zip/ZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Write(UnknownType, Int32, Int32);Void Write(UnknownType, Int32, Int32);Finish
+cs+class://ICSharpCode/SharpZipLib/Zip/ZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Write(UnknownType, Int32, Int32);Void Write(UnknownType, Int32, Int32);Deflate
+cs+class://ICSharpCode/SharpZipLib/Zip/ZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Finish();Void Finish();Close
+cs+class://ICSharpCode/SharpZipLib/Zip/ZipOutputStream;cs+class://ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream;Void Write(UnknownType, Int32, Int32);Void Write(UnknownType, Int32, Int32);WriteByte
+cs+class://AS2Context/Context;cs+class://ASCompletion/Context/ASContext;Void BuildClassPath();Void BuildClassPath();(field initializer)
+cs+class://AS2Context/Context;cs+class://ASCompletion/Context/ASContext;Void CheckModel(Boolean);Void CheckModel(Boolean);SetCurrentFile
+cs+class://AS2Context/Context;cs+class://ASCompletion/Context/ASContext;Void BuildClassPath();Void BuildClassPath();Setup
+cs+class://AS2Context/Context;cs+class://ASCompletion/Context/ASContext;MemberList GetVisibleExternalElements();MemberList GetVisibleExternalElements();cacheRefreshTimer_Tick
+cs+class://AS2Context/Context;cs+class://ASCompletion/Context/ASContext;Void UpdateTopLevelElements();Void UpdateTopLevelElements();UpdateContext
+cs+class://AS2Context/Context;cs+class://ASCompletion/Context/ASContext;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);OnSelectOutlineNode
+cs+class://ProjectManager/Controls/AS2/AS2PropertiesDialog;cs+class://ProjectManager/Controls/PropertiesDialog;Void BuildDisplay();Void BuildDisplay();SetProject
+cs+class://ProjectManager/Controls/AS2/AS2PropertiesDialog;cs+class://ProjectManager/Controls/PropertiesDialog;Boolean Apply();Boolean Apply();btnOK_Click
+cs+class://ProjectManager/Controls/AS2/AS2PropertiesDialog;cs+class://ProjectManager/Controls/PropertiesDialog;Boolean Apply();Boolean Apply();btnApply_Click
+cs+class://ProjectManager/Projects/AS2/AS2ProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void ProcessNode(String);Void ProcessNode(String);ReadProject
+cs+class://ProjectManager/Projects/AS2/AS2ProjectWriter;cs+class://ProjectManager/Projects/ProjectWriter;Void OnAfterWriteClasspaths();Void OnAfterWriteClasspaths();WriteProject
+cs+class://ProjectManager/Projects/AS2/AS2ProjectWriter;cs+class://ProjectManager/Projects/ProjectWriter;Void OnAfterWriteCompileTargets();Void OnAfterWriteCompileTargets();WriteProject
+cs+class://ProjectManager/Projects/AS3/AS3Project;cs+class://ProjectManager/Projects/Project;Boolean IsLibraryAsset(String);Boolean IsLibraryAsset(String);ChangeAssetPath
+cs+class://ProjectManager/Projects/AS3/AS3ProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void ProcessNode(String);Void ProcessNode(String);ReadProject
+cs+class://ProjectManager/Projects/AS3/AS3ProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void PostProcess();Void PostProcess();ReadProject
+cs+class://ProjectManager/Projects/AS3/AS3ProjectWriter;cs+class://ProjectManager/Projects/ProjectWriter;Void OnAfterWriteClasspaths();Void OnAfterWriteClasspaths();WriteProject
+cs+class://ProjectManager/Projects/AS3/FlexProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void ProcessRootNode();Void ProcessRootNode();ReadProject
+cs+class://ProjectManager/Projects/AS3/FlexProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void ProcessNode(String);Void ProcessNode(String);ReadProject
+cs+class://ProjectManager/Projects/Haxe/HaxeProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void ProcessNode(String);Void ProcessNode(String);ReadProject
+cs+class://ProjectManager/Projects/Haxe/HaxeProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void PostProcess();Void PostProcess();ReadProject
+cs+class://ProjectManager/Projects/Haxe/HaxeProjectWriter;cs+class://ProjectManager/Projects/ProjectWriter;Void OnAfterWriteClasspaths();Void OnAfterWriteClasspaths();WriteProject
+cs+class://ProjectManager/Projects/Haxe/HaxeProjectWriter;cs+class://ProjectManager/Projects/ProjectWriter;Void OnAfterWriteCompileTargets();Void OnAfterWriteCompileTargets();WriteProject
+cs+class://ProjectManager/Controls/TreeView/ProjectOutputNode;cs+class://ProjectManager/Controls/TreeView/SwfFileNode;Void Refresh(Boolean);Void Refresh(Boolean);RefreshWithFeedback
+cs+class://ProjectManager/Controls/TreeView/ProjectNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void NotifyRefresh();Void NotifyRefresh();Refresh
+cs+class://ProjectManager/Controls/TreeView/ProjectNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateChildNodes
+cs+class://ProjectManager/Controls/TreeView/ProjectNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/ProjectNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/ProjectNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateFiles
+cs+class://ProjectManager/Controls/TreeView/ClasspathNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateChildNodes
+cs+class://ProjectManager/Controls/TreeView/ClasspathNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/ClasspathNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/ClasspathNode;cs+class://ProjectManager/Controls/TreeView/WatcherNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateFiles
+cs+class://ProjectManager/Controls/TreeView/ProjectClasspathNode;cs+class://ProjectManager/Controls/TreeView/ClasspathNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateChildNodes
+cs+class://ProjectManager/Controls/TreeView/ProjectClasspathNode;cs+class://ProjectManager/Controls/TreeView/ClasspathNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/ProjectClasspathNode;cs+class://ProjectManager/Controls/TreeView/ClasspathNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/ProjectClasspathNode;cs+class://ProjectManager/Controls/TreeView/ClasspathNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateFiles
+cs+class://ProjectManager/Controls/TreeView/ProjectTreeView;cs+class://System/Windows/Forms/DragDropTreeView;DataObject BeginDragNodes(ArrayList);DataObject BeginDragNodes(ArrayList);OnItemDrag
+cs+class://ProjectManager/Controls/TreeView/ProjectTreeView;cs+class://System/Windows/Forms/DragDropTreeView;TreeNode ChangeDropTarget(TreeNode);TreeNode ChangeDropTarget(TreeNode);OnDragOver
+cs+class://ProjectManager/Controls/TreeView/ProjectTreeView;cs+class://System/Windows/Forms/DragDropTreeView;TreeNode ChangeDropTarget(TreeNode);TreeNode ChangeDropTarget(TreeNode);OnDragDrop
+cs+class://ProjectManager/Controls/TreeView/ProjectTreeView;cs+class://System/Windows/Forms/DragDropTreeView;TreeNode ChangeDropTarget(TreeNode);TreeNode ChangeDropTarget(TreeNode);OnDragDrop
+cs+class://ProjectManager/Controls/TreeView/ProjectTreeView;cs+class://System/Windows/Forms/DragDropTreeView;Void OnMoveNode(TreeNode, TreeNode);Void OnMoveNode(TreeNode, TreeNode);DragNodes
+cs+class://ProjectManager/Controls/TreeView/ProjectTreeView;cs+class://System/Windows/Forms/DragDropTreeView;Void OnCopyNode(TreeNode, TreeNode);Void OnCopyNode(TreeNode, TreeNode);DragNodes
+cs+class://ProjectManager/Controls/TreeView/InputSwfNode;cs+class://ProjectManager/Controls/TreeView/SwfFileNode;Void Refresh(Boolean);Void Refresh(Boolean);RefreshWithFeedback
+cs+class://ProjectManager/Controls/TreeView/WatcherNode;cs+class://ProjectManager/Controls/TreeView/DirectoryNode;Void Dispose();Void Dispose();Dispose
+cs+class://ProjectManager/Controls/TreeView/WatcherNode;cs+class://ProjectManager/Controls/TreeView/DirectoryNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateChildNodes
+cs+class://ProjectManager/Controls/TreeView/WatcherNode;cs+class://ProjectManager/Controls/TreeView/DirectoryNode;Void Dispose();Void Dispose();PopulateChildNodes
+cs+class://ProjectManager/Controls/TreeView/WatcherNode;cs+class://ProjectManager/Controls/TreeView/DirectoryNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/WatcherNode;cs+class://ProjectManager/Controls/TreeView/DirectoryNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateDirectories
+cs+class://ProjectManager/Controls/TreeView/WatcherNode;cs+class://ProjectManager/Controls/TreeView/DirectoryNode;Void Refresh(Boolean);Void Refresh(Boolean);PopulateFiles
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateContext(Int32);Void UpdateContext(Int32);(field initializer)
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void BuildClassPath();Void BuildClassPath();(field initializer)
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void GetCurrentFileModel(String);Void GetCurrentFileModel(String);(field initializer)
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void TrackTextChange(ScintillaControl, Int32, Int32, Int32);Void TrackTextChange(ScintillaControl, Int32, Int32, Int32);OnTextChanged
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void BuildClassPath();Void BuildClassPath();Setup
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void ExploreVirtualPath(PathModel);Void ExploreVirtualPath(PathModel);ExplorePath
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);cacheRefreshTimer_Tick
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;FileModel CreateFileModel(String);FileModel CreateFileModel(String);GetCachedFileModel
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;FileModel CreateFileModel(String);FileModel CreateFileModel(String);GetFileModel
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);GetCurrentFileModel
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateContext(Int32);Void UpdateContext(Int32);GetCurrentFileModel
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateContext(Int32);Void UpdateContext(Int32);UpdateCurrentFile
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);UpdateContext
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);OnSelectOutlineNode
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;FileModel CreateFileModel(String);FileModel CreateFileModel(String);MakeIntrinsic
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();BuildClassPath
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveImports
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveType
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveType
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTypeIndex
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTypeIndex
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();GetTopLevelElements
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void RunCMD(String);Void RunCMD(String);CheckSyntax
+cs+class://AS3Context/Context;cs+class://AS2Context/Context;Void RunCMD(String);Void RunCMD(String);BuildCMD
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void BuildClassPath();Void BuildClassPath();(field initializer)
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void BuildClassPath();Void BuildClassPath();Setup
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Boolean ExplorePath(PathModel);Boolean ExplorePath(PathModel);AddPath
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void ExploreVirtualPath(PathModel);Void ExploreVirtualPath(PathModel);ExplorePath
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);cacheRefreshTimer_Tick
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;MemberList GetVisibleExternalElements();MemberList GetVisibleExternalElements();cacheRefreshTimer_Tick
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);GetCurrentFileModel
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);UpdateContext
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);OnSelectOutlineNode
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();BuildClassPath
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void UpdateCurrentFile(Boolean);Void UpdateCurrentFile(Boolean);(field initializer)
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveImports
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveImports
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveImports
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveType
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveType
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveType
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveType
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTypeIndex
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTypeIndex
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;FileModel GetFileModel(String);FileModel GetFileModel(String);LocateClassFile
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();GetTopLevelElements
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);GetVisibleExternalElements
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);GetVisibleExternalElements
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;MemberList ResolveImports(FileModel);MemberList ResolveImports(FileModel);GetVisibleExternalElements
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void RunCMD(String);Void RunCMD(String);CheckSyntax
+cs+class://HaXeContext/Context;cs+class://AS2Context/Context;Void RunCMD(String);Void RunCMD(String);BuildCMD
+cs+class://CodeRefactor/Commands/Move;cs+class://CodeRefactor/Commands/RefactorCommand[1];Boolean IsValid();Boolean IsValid();Execute
+cs+class://CodeRefactor/Commands/Move;cs+class://CodeRefactor/Commands/RefactorCommand[1];Void ExecutionImplementation();Void ExecutionImplementation();Execute
+cs+class://CodeRefactor/Commands/OrganizeImports;cs+class://CodeRefactor/Commands/RefactorCommand[1];Boolean IsValid();Boolean IsValid();Execute
+cs+class://CodeRefactor/Commands/OrganizeImports;cs+class://CodeRefactor/Commands/RefactorCommand[1];Void ExecutionImplementation();Void ExecutionImplementation();Execute
+cs+class://CodeRefactor/Commands/FindAllReferences;cs+class://CodeRefactor/Commands/RefactorCommand[1];Boolean IsValid();Boolean IsValid();Execute
+cs+class://CodeRefactor/Commands/FindAllReferences;cs+class://CodeRefactor/Commands/RefactorCommand[1];Void ExecutionImplementation();Void ExecutionImplementation();Execute
+cs+class://CodeRefactor/Commands/Rename;cs+class://CodeRefactor/Commands/RefactorCommand[1];Boolean IsValid();Boolean IsValid();Execute
+cs+class://CodeRefactor/Commands/Rename;cs+class://CodeRefactor/Commands/RefactorCommand[1];Void ExecutionImplementation();Void ExecutionImplementation();Execute
+cs+class://CodeRefactor/Commands/RenameFile;cs+class://CodeRefactor/Commands/RefactorCommand[1];Boolean IsValid();Boolean IsValid();Execute
+cs+class://CodeRefactor/Commands/RenameFile;cs+class://CodeRefactor/Commands/RefactorCommand[1];Void ExecutionImplementation();Void ExecutionImplementation();Execute
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void BuildClassPath();Void BuildClassPath();(field initializer)
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void GetCurrentFileModel(String);Void GetCurrentFileModel(String);(field initializer)
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void CheckModel(Boolean);Void CheckModel(Boolean);SetCurrentFile
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void BuildClassPath();Void BuildClassPath();Setup
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void UpdateTopLevelElements();Void UpdateTopLevelElements();UpdateContext
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);OnSelectOutlineNode
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();BuildClassPath
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void UpdateTopLevelElements();Void UpdateTopLevelElements();BuildClassPath
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void UpdateTopLevelElements();Void UpdateTopLevelElements();(field initializer)
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTopLevelElement
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveImports
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveImports
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveImports
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveType
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveType
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);ResolveType
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveType
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTypeIndex
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;ClassModel ResolveType(String, FileModel);ClassModel ResolveType(String, FileModel);ResolveTypeIndex
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();GetTopLevelElements
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);GetVisibleExternalElements
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;FileModel ResolvePackage(String, Boolean);FileModel ResolvePackage(String, Boolean);GetVisibleExternalElements
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void RunCMD(String);Void RunCMD(String);CheckSyntax
+cs+class://PHPContext/Context;cs+class://AS2Context/Context;Void RunCMD(String);Void RunCMD(String);BuildCMD
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void BuildClassPath();Void BuildClassPath();(field initializer)
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void BuildClassPath();Void BuildClassPath();Setup
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void ExploreVirtualPath(PathModel);Void ExploreVirtualPath(PathModel);ExplorePath
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();BuildClassPath
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();GetTopLevelElements
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void RunCMD(String);Void RunCMD(String);CheckSyntax
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void RunCMD(String);Void RunCMD(String);BuildCMD
+cs+class://LoomContext/Context;cs+class://AS3Context/Context;Void InitTopLevelElements();Void InitTopLevelElements();BuildClassPath
+cs+class://LoomContext/Projects/LoomProject;cs+class://ProjectManager/Projects/Project;Boolean IsLibraryAsset(String);Boolean IsLibraryAsset(String);ChangeAssetPath
+cs+class://LoomContext/Projects/LoomProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void ProcessNode(String);Void ProcessNode(String);ReadProject
+cs+class://LoomContext/Projects/LoomProjectReader;cs+class://ProjectManager/Projects/ProjectReader;Void PostProcess();Void PostProcess();ReadProject
+cs+class://LoomContext/Projects/LoomProjectWriter;cs+class://ProjectManager/Projects/ProjectWriter;Void OnAfterWriteClasspaths();Void OnAfterWriteClasspaths();WriteProject

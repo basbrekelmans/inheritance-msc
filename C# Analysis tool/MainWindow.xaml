@@ -1,0 +1,102 @@
+﻿<Window x:Class="CSharpInheritanceAnalyzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:CSharpInheritanceAnalyzer.ViewModel"
+        DataContext="{Binding Main, Source={StaticResource Locator}}"
+        mc:Ignorable="d" AllowDrop="True" DragEnter="DragEnterWindow" Drop="OnDrop"
+        Title="C# Inheritance analyzer" Height="350" Width="525">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <DataTemplate DataType="{x:Type viewModel:Solution}">
+            <Grid>
+                <ProgressBar BorderThickness="0" Foreground="#33009900" Height="30"
+                                         VerticalAlignment="Top"
+                                         Background="White" Value="{Binding ProgressPercentage, Mode=OneWay}" />
+                <Expander>
+                    <Expander.Header>
+                        <TextBlock FontSize="17" Height="24" VerticalAlignment="Center">
+                                        <Run Text="{Binding FileName, Mode=OneTime}" />
+                                        <Run>(</Run><Run Text="{Binding Status, Mode=OneWay}" /><Run>)</Run>
+                                        <Run>(</Run><Run Text="{Binding LinesOfCode, Mode=OneWay}" /><Run>)</Run>
+                        </TextBlock>
+                    </Expander.Header>
+                    <ItemsControl ItemsSource="{Binding Projects}" Margin="15 5 5 5">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate DataType="viewModel:CSharpProject">
+                                <Grid>
+                                    <ProgressBar BorderThickness="0" Height="30"
+                                                             VerticalAlignment="Top"
+                                                             Background="White"
+                                                             Value="{Binding ProgressPercentage, Mode=OneWay}">
+                                        <ProgressBar.Style>
+                                            <Style TargetType="ProgressBar">
+                                                <Setter Property="Foreground" Value="#33009900" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding WasNotLoaded}" Value="True">
+                                                        <Setter Property="Foreground" Value="#33990000" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </ProgressBar.Style>
+                                    </ProgressBar>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock FontSize="15" Margin="30 3 3 3" Text="{Binding Title}" />
+                                        <TextBlock FontSize="15">
+                                                        <Run>(</Run><Run Text="{Binding LinesOfCode, Mode=OneWay}" /><Run>)</Run></TextBlock>
+                                        <StackPanel Orientation="Horizontal"
+                                                                Visibility="{Binding HasWarnings, Converter={StaticResource BooleanToVisibilityConverter}}">
+                                            <Path Width="16" Height="16" Margin="4" Fill="Orange"
+                                                              Data="F1M874.094,289.369L854.3,254.63C854.028,254.151 853.515,253.856 852.958,253.856 852.403,253.856 851.89,254.151 851.617,254.63L831.824,289.369C831.555,289.84 831.559,290.416 831.835,290.883 832.111,291.348 832.618,291.634 833.165,291.634L872.752,291.634C873.299,291.634 873.805,291.348 874.081,290.883 874.357,290.416 874.361,289.84 874.094,289.369 M855.653,287.189L850.264,287.189 850.264,282.745 855.653,282.745 855.653,287.189z M855.653,279.41L850.264,279.41 850.264,266.077 855.653,266.077 855.653,279.41z"
+                                                              Stretch="Uniform" />
+                                            <TextBlock FontSize="15" Foreground="Orange"
+                                                                   Text="{Binding Warnings}" />
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                                Visibility="{Binding HasErrors, Converter={StaticResource BooleanToVisibilityConverter}}">
+                                            <Path Width="16" Height="16" Margin="4" Fill="Red"
+                                                              Data="F1M-1774.05,-6263.81L-1787.51,-6277.27 -1773.22,-6291.56C-1769.23,-6295.55 -1769.24,-6302.03 -1773.21,-6306.01 -1777.19,-6309.98 -1783.67,-6309.99 -1787.66,-6305.99L-1801.95,-6291.71 -1816.79,-6306.55C-1820.79,-6310.55 -1827.26,-6310.54 -1831.24,-6306.55 -1835.22,-6302.58 -1835.23,-6296.11 -1831.24,-6292.12L-1816.39,-6277.27 -1830.4,-6263.25C-1834.4,-6259.26 -1834.38,-6252.8 -1830.4,-6248.82 -1826.42,-6244.84 -1819.96,-6244.82 -1815.96,-6248.82L-1801.95,-6262.83 -1788.49,-6249.37C-1784.5,-6245.38 -1778.03,-6245.39 -1774.06,-6249.37 -1770.07,-6253.35 -1770.06,-6259.82 -1774.05,-6263.81"
+                                                              Stretch="Uniform" />
+                                            <TextBlock FontSize="15" Foreground="Red"
+                                                                   Text="{Binding Errors}" />
+                                        </StackPanel>
+                                    </StackPanel>
+
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Expander>
+
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Click="AddButtonClick" Background="White">
+            <TextBlock Margin="10" FontSize="15"
+                       Text="Click here or drop a file below to add a solution" />
+        </Button>
+        <Grid DockPanel.Dock="Bottom">
+            <ProgressBar Name="JavaProgress" />
+            <TextBlock Name="ProgressText" />
+        </Grid>
+        <Button DockPanel.Dock="Bottom" Click="JavaLocClick" Background="White">
+            <TextBlock Margin="10" FontSize="15"
+                       Text="Count Java SLOC" />
+        </Button>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" DockPanel.Dock="Right">
+            <GroupBox Header="Completed items">
+                <ItemsControl ItemsSource="{Binding FinishedItems}" />
+            </GroupBox>
+        </ScrollViewer>
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl ItemsSource="{Binding SolutionQueue}"
+                           
+                          HorizontalContentAlignment="Stretch">
+            </ItemsControl>
+        </ScrollViewer>
+    </DockPanel>
+
+</Window>

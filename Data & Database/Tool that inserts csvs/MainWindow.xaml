@@ -1,0 +1,56 @@
+﻿<Window x:Class="InheritanceInsertion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModel="clr-namespace:InheritanceInsertion.ViewModel"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        DataContext="{Binding Main, Source={StaticResource Locator}}"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility" />
+    </Window.Resources>
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top">
+            <Button DockPanel.Dock="Right" Content="Pick" />
+            <TextBox DockPanel.Dock="Left" />
+        </DockPanel>
+        <Grid DockPanel.Dock="Bottom">
+            <ProgressBar Name="Progress" Visibility="Collapsed" Minimum="0" Maximum="1">
+                
+            </ProgressBar>
+
+        </Grid>
+        <GroupBox Header="Actions" DockPanel.Dock="Left">
+            <StackPanel>
+                <Button Click="InsertAll_Click">
+                    Upload non-existing
+                </Button>
+                <Button Click="InsertSelected_Click">
+                    Upload selection
+                </Button>
+
+            </StackPanel>
+        </GroupBox>
+        <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Projects}" Name="Grid">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Language}" Header="Language" />
+                <DataGridTextColumn Binding="{Binding SourceCodeType}" Header="SourceCodeType" />
+                <DataGridTextColumn Binding="{Binding Name}" Header="Name" />
+                <DataGridTextColumn Binding="{Binding NumberOfModules}" Header="Number of modules" />
+                <DataGridTextColumn Binding="{Binding CurrentlyLoading}" Header="Status" />
+                <DataGridTextColumn Binding="{Binding Exists}" Header="Exists?" />
+                <DataGridTemplateColumn Header="Upload">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding UploadCommand}">Upload</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

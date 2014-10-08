@@ -1,0 +1,7 @@
+fromType;toType;fromMethod;toMethod;calledFrom
+cs+class://CsInheritanceTest/Downcall/DerivedType;cs+class://CsInheritanceTest/Downcall/BaseType;Void Method();Void Method();DowncallCandidateHere
+cs+class://CsInheritanceTest/Downcall/DerivedType;cs+class://CsInheritanceTest/Downcall/BaseType;Void Method();Void Method();SecondDowncallCandidate
+cs+class://CsInheritanceTest/Downcall/MoreDerivedType;cs+class://CsInheritanceTest/Downcall/DerivedType;Void Method();Void Method();DowncallCandidateHere
+cs+class://CsInheritanceTest/Downcall/MoreDerivedType;cs+class://CsInheritanceTest/Downcall/DerivedType;Void Method();Void Method();SecondDowncallCandidate
+cs+class://CsInheritanceTest/InternalReuse/MethodCall/DerivedType;cs+class://CsInheritanceTest/InternalReuse/MethodCall/BaseType;Void AbstractDeclaredInBase();Void AbstractDeclaredInBase();CallsAbstractSelfMethodWithThisQualifier
+cs+class://CsInheritanceTest/InternalReuse/MethodCall/DerivedType;cs+class://CsInheritanceTest/InternalReuse/MethodCall/BaseType;Void AbstractDeclaredInBase();Void AbstractDeclaredInBase();CallsAbstractSelfMethodWithoutQualifier

@@ -1,0 +1,3 @@
+From;To;Source
+cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorException;cs+class://System/Exception;(not implemented)
+cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorException;cs+class://System/Exception;(not implemented)

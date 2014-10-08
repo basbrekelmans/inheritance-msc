@@ -1,0 +1,11 @@
+type;from;to;direct;marker;constants;systemType
+CC;cs+class://CsInheritanceTest/Downcall/DerivedType;cs+class://CsInheritanceTest/Downcall/BaseType;True;False;False;True
+CC;cs+class://CsInheritanceTest/Downcall/MoreDerivedType;cs+class://CsInheritanceTest/Downcall/DerivedType;True;False;False;True
+CI;cs+class://CsInheritanceTest/InternalReuse/FieldAccess/BaseType;cs+interface://CsInheritanceTest/Marker/IMarker;True;True;False;True
+CC;cs+class://CsInheritanceTest/InternalReuse/FieldAccess/DerivedType;cs+class://CsInheritanceTest/InternalReuse/FieldAccess/BaseType;True;False;False;True
+CC;cs+class://CsInheritanceTest/InternalReuse/FieldAccess/MoreDerivedType;cs+class://CsInheritanceTest/InternalReuse/FieldAccess/DerivedType;True;False;False;True
+CC;cs+class://CsInheritanceTest/InternalReuse/MethodCall/DerivedType;cs+class://CsInheritanceTest/InternalReuse/MethodCall/BaseType;True;False;False;True
+CC;cs+class://CsInheritanceTest/InternalReuse/MethodCall/MoreDerivedType;cs+class://CsInheritanceTest/InternalReuse/MethodCall/DerivedType;True;False;False;True
+II;cs+interface://CsInheritanceTest/Marker/IAlsoNotAMarker;cs+interface://CsInheritanceTest/Marker/INotAMarker;True;False;False;True
+CC;cs+class://CsInheritanceTest/Subtype/ParametrizedDerivedType[1];cs+class://CsInheritanceTest/Subtype/ParametrizedBaseType[1];True;False;False;True
+CC;cs+class://CsInheritanceTest/Subtype/ThisChangingTypeDerived;cs+class://CsInheritanceTest/Subtype/ThisChangingTypeBase;True;False;False;True

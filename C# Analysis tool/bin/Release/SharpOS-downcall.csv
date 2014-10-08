@@ -1,0 +1,7 @@
+fromType;toType;fromMethod;toMethod;calledFrom
+cs+class://SharpOS/AOT/IR/Instructions/SizeOf;cs+class://SharpOS/AOT/IR/Instructions/Instruction;String ToString();String ToString();Dump
+cs+class://SharpOS/AOT/X86/BlobDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Boolean Encode(Boolean, BinaryWriter);Boolean Encode(Boolean, BinaryWriter);Size
+cs+class://SharpOS/AOT/X86/ByteDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Boolean Encode(Boolean, BinaryWriter);Boolean Encode(Boolean, BinaryWriter);Size
+cs+class://SharpOS/AOT/X86/DataInstruction;cs+class://SharpOS/AOT/X86/Instruction;Boolean Encode(Boolean, BinaryWriter);Boolean Encode(Boolean, BinaryWriter);Size
+cs+class://SharpOS/AOT/X86/DWordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Boolean Encode(Boolean, BinaryWriter);Boolean Encode(Boolean, BinaryWriter);Size
+cs+class://SharpOS/AOT/X86/WordDataInstruction;cs+class://SharpOS/AOT/X86/DataInstruction;Boolean Encode(Boolean, BinaryWriter);Boolean Encode(Boolean, BinaryWriter);Size

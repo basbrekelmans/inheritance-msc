@@ -1,0 +1,10 @@
+type;from;to;direct;marker;constants;systemType
+CC;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorException;cs+class://System/Exception;True;False;False;False
+CC;cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorException;cs+class://System/Exception;True;False;False;False
+CC;cs+class://Microsoft/DbContextPackage/Utilities/VBViewGenerator;cs+class://Microsoft/DbContextPackage/Utilities/VBViewGeneratorBase;True;False;False;True
+CI;cs+class://Microsoft/DbContextPackage/Utilities/EfTextTemplateHost;cs+interface://Microsoft/VisualStudio/TextTemplating/ITextTemplatingEngineHost;True;False;False;False
+CI;cs+class://Microsoft/DbContextPackage/Utilities/CSharpViewGenerator;cs+interface://Microsoft/DbContextPackage/Utilities/IViewGenerator;True;False;False;True
+CI;cs+class://Microsoft/DbContextPackage/Utilities/VBViewGenerator;cs+interface://Microsoft/DbContextPackage/Utilities/IViewGenerator;True;False;False;True
+CC;cs+class://Microsoft/DbContextPackage/DbContextPackage;cs+class://Microsoft/VisualStudio/Shell/Package;True;False;False;False
+CC;cs+class://Microsoft/DbContextPackage/Utilities/CSharpViewGenerator;cs+class://Microsoft/DbContextPackage/Utilities/CSharpViewGeneratorBase;True;False;False;True
+CI;cs+class://Microsoft/DbContextPackage/Utilities/EdmxUtilityTests/TempFile;cs+interface://System/IDisposable;True;False;False;False

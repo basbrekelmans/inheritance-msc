@@ -1,0 +1,9 @@
+direct?;source;from;to;from declaration;to declaration
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/DbContextPackage/LogError
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorCollectionExtensionsTests/HandleErrors_throws_when_errors
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorExceptionTests/Ctor_sets_properties
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/Extensions/CompilerErrorExceptionTests/Is_serializable
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/DbContextPackage/LogError
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorExceptionTests/Ctor_sets_properties
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorExceptionTests/Is_serializable
+True;MethodCall;cs+class://Microsoft/DbContextPackage/Extensions/EdmSchemaErrorException;cs+class://System/Exception;Message;cs+class://Microsoft/DbContextPackage/Utilities/EdmxUtilityTests/GetMappingCollection_throws_on_schema_errors
